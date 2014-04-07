@@ -1,5 +1,6 @@
 #grid .participants {
     background-color: #f0f3f5;
+    overflow: hidden;
 }
 #grid .participants .arrow {
     background-image: url('../images/arrowgrid.jpg');
