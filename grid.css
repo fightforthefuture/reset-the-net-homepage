@@ -1,6 +1,9 @@
 #grid .participants {
     background-color: #f0f3f5;
+    border-radius: 3px;
     overflow: hidden;
+    padding: 12px 4px;
+    text-align: center;
 }
 #grid .participants .arrow {
     background-image: url('../images/arrowgrid.jpg');
@@ -14,47 +17,23 @@
 }
 #grid .participants .slide {
     background-color: white;
+    border: 1px solid #e4e8ee;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    height: 245px;
-    width: 220px;
-    padding: 10px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-#grid .participants .slide {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    background-color: #fff;
-    -moz-box-shadow: 0 2px 2px rgba(60, 84, 103, .13);
-    -webkit-box-shadow: 0 2px 2px rgba(60, 84, 103, .13);
     box-shadow: 0 2px 2px rgba(60, 84, 103, .13);
+    display: inline-block;
     float: left;
-    cursor: pointer;
-    margin-bottom: 24px;
-    margin-right: 24px;
+    height: 245px;
+    margin: 3px 6px;
+    overflow: hidden;
+    padding: 10px;
+    width: 220px;
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
     -ms-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
-    border: 1px solid #e4e8ee;
 }
 #grid .participants .slide:hover {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    background-color: #fff;
-    -moz-box-shadow: 0 9px 21px rgba(39, 50, 57, .29);
-    -webkit-box-shadow: 0 9px 21px rgba(39, 50, 57, .29);
     box-shadow: 0 9px 21px rgba(39, 50, 57, .29);
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
