@@ -254,3 +254,48 @@ noscript a:hover {
 #grid .participants .slide p strong {
     color: #606668;
 }
+
+/* HOW TO RESET */
+#how-to-reset .cloud {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+#how-to-reset h1 {
+    margin-bottom: 42px;
+}
+
+#how-to-reset .slides {
+    text-align: center;
+}
+
+#how-to-reset .slide {
+    display: inline-block;
+    margin-bottom: 32px;
+    text-align: center;
+    width: 300px;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#how-to-reset .slide h2 {
+    border-bottom: 1px solid #ccc;
+    color: #175879;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto 12px;
+    padding-bottom: 6px;
+    width: 160px;
+}
+
+#how-to-reset .slide img {
+    margin-bottom: 12px;
+}
+
+#how-to-reset .slide p {
+    font-size: 14px;
+}
