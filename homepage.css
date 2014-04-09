@@ -78,10 +78,11 @@ a {
     line-height: 1.7;
 }
 .navigation {
-    width: 100%;
+    background-color: #1371a6;
+    display: none;
     height: 30px;
     padding-top: 13px;
-    background-color: #1371a6;
+    width: 100%;
 }
 .navinn {
     width: 60%;
