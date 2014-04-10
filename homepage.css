@@ -454,9 +454,8 @@ opacity: 0.9;
 	background-clip: padding-box; /* prevents bg color from leaking outside the border */
 	background-color: #354659; /* layer fill content */
 	border-bottom: 4px solid #273544;
-	margin-left: 18px;
 	margin-top: 20px;
-	margin-left: 12%;
+	margin-left: 18%;
 -webkit-transition:  0.3s ease-in-out;
 -moz-transition:  0.3s ease-in-out;
 -ms-transition:  0.3s ease-in-out;
