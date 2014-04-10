@@ -478,7 +478,7 @@ border-radius: 3px; /* border radius */
 -moz-background-clip: padding;
 -webkit-background-clip: padding-box;
 background-clip: padding-box; /* prevents bg color from leaking outside the border */
-background-color: #2b85d9; /* layer fill content + color overlay */
+background-color: #8ea4bd; /* layer fill content + color overlay */
 width: 260px;
 float: left;
 text-align: center;
