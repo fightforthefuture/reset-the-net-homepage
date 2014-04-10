@@ -272,7 +272,9 @@ noscript a:hover {
 
 #how-to-reset .slide {
     display: inline-block;
+    height: 270px;
     margin-bottom: 32px;
+    overflow: hidden;
     text-align: center;
     width: 300px;
 
