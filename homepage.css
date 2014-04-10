@@ -470,6 +470,7 @@ transition: 0.3s ease-in-out;
 -o-transform: scale(1.05);
 -ms-transform: scale(1.05);
 transform: scale(1.05);
+border-bottom: 4px solid #8b909a;
 	
 }
 
