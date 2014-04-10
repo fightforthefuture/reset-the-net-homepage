@@ -397,6 +397,12 @@ height: 140px;
 
 }
 
+#what-to-do .boxtext a{
+color: #2c85d9;
+text-decoration: underline;
+
+}
+
 #what-to-do .boxtext:hover{
 border-top: 5px solid #2c85d9;
 }
