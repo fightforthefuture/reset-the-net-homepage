@@ -312,7 +312,7 @@ noscript a:hover {
 
 #what-to-do{
 	background-color: #8b939c;
-	padding-top: 80px;
+	padding-top: 50px;
 	padding-bottom: 80px;
 	text-align: center;
 }
@@ -325,7 +325,7 @@ noscript a:hover {
 
 #what-to-do .boxholder{
 	width: 300px;
-	height: 330px;
+	height: 360px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px; /* border radius */
@@ -377,7 +377,7 @@ transform: scale(1.05);
 -webkit-border-radius: 5px 5px 0 0;
 border-radius: 5px 5px 0 0; /* border radius */
 background-color: #e8eef3;
-height: 83px;
+height: 75px;
 
 text-align: center;
 padding-top: 15px;
@@ -386,6 +386,7 @@ padding-top: 15px;
 #what-to-do .boxheader h2{
 font-weight: lighter;
 color: #616e7f;
+font-size: 30px;
 
 }
 
@@ -398,7 +399,7 @@ padding-right: 20px;
 padding-top: 18px;
 font-weight: lighter;
 border-top: 5px solid #bdcad7;
-height: 140px;
+height: 180px;
 
 }
 
