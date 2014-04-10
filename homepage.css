@@ -400,6 +400,9 @@ padding-top: 18px;
 font-weight: lighter;
 border-top: 5px solid #bdcad7;
 height: 180px;
+transition: border .2s ease-in-out;
+-webkit-transition: border .2s ease-in-out;
+-moz-transition: border .2s ease-in-out;
 
 }
 
@@ -409,7 +412,8 @@ text-decoration: underline;
 
 }
 
-#what-to-do .boxtext:hover{
+
+#what-to-do .boxholder:hover .boxtext{
 border-top: 5px solid #2c85d9;
 }
 
