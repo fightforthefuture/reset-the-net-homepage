@@ -298,7 +298,14 @@ noscript a:hover {
 }
 
 #how-to-reset .slide p {
+    color: #537789;
+    font-family: Montserrat,sans-serif;
     font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
 }
 
 #what-to-do{
@@ -327,9 +334,10 @@ noscript a:hover {
 	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.1); /* drop shadow */
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1); /* drop shadow */
 	box-shadow: 0 1px 3px rgba(0,0,0,.1); /* drop shadow */	
-	float: left;
+	/*float: left;*/
 	margin-left: 18px;
 	margin-right: 18px;
+    overflow: hidden;
 	display: inline-block;
 	-webkit-transition:  0.3s ease-in-out;
 	-moz-transition:  0.3s ease-in-out;
@@ -371,10 +379,6 @@ height: 83px;
 
 text-align: center;
 padding-top: 15px;
-}
-
-#what-to-do .container{
-padding-left: 8%;
 }
 
 #what-to-do .boxheader h2{
@@ -492,6 +496,23 @@ text-decoration: none;
 margin-left: 20px;
 padding-top: 14px;
 padding-bottom: 14px;
+}
+
+@media screen and (max-width: 1199px) {
+    #what-to-do .widebox p {
+        text-align: center;
+        width: auto;
+    }
+    #what-to-do .widebox a.button {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #what-to-do .widebox {
+        float: none;
+        margin: 20px auto 0;
+    }
 }
 
 
