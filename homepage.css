@@ -173,8 +173,10 @@ noscript a:hover {
 #add-yourself iframe {
     border: none;
     display: block;
-    height: 640px;
-    margin: 32px auto 0;
+    height: 460px;
+    margin: auto 0;
+    margin-top: 32px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
