@@ -317,6 +317,7 @@ noscript a:hover {
 	text-align: center;
 }
 
+
 #what-to-do h1{
 	color: #fff;
 	margin-bottom: 30px;
@@ -337,8 +338,8 @@ noscript a:hover {
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1); /* drop shadow */
 	box-shadow: 0 1px 3px rgba(0,0,0,.1); /* drop shadow */	
 	/*float: left;*/
-	margin-left: 18px;
-	margin-right: 18px;
+	margin-left: 12px;
+	margin-right: 12px;
     overflow: hidden;
 	display: inline-block;
 	-webkit-transition:  0.3s ease-in-out;
