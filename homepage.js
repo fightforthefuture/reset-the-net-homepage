@@ -1,6 +1,9 @@
 $(function() {
 
-
+// Scroll to the form, if the correct hash is detected.
+if (location.hash.match(/^#add-yourself/)) {
+    $(window).scrollTop($('#add-yourself').offset().top);
+}
 
 if (location.hash !== '#preview28') {
     return;
