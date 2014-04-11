@@ -259,12 +259,16 @@ noscript a:hover {
 
 /* HOW TO RESET */
 #how-to-reset .cloud {
-    margin-bottom: 55px;
+    margin-bottom: 40px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 padding-bottom: 40px;
 border-bottom: 1px solid #e5ecef;
+}
+
+#how-to-reset{
+    padding-bottom: 0px;
 }
 
 
