@@ -260,8 +260,13 @@ noscript a:hover {
 /* HOW TO RESET */
 #how-to-reset .cloud {
     margin-bottom: 24px;
-    width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 40px;
+border-bottom: 1px solid #e5ecef;
 }
+
 
 #how-to-reset h1 {
     margin-bottom: 42px;
@@ -528,5 +533,11 @@ padding-bottom: 14px;
 
 .container{
 	width: auto;
+}
+
+.gocenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
