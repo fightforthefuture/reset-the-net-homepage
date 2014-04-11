@@ -292,6 +292,13 @@ function getip(json){
         </script>
 <script type="text/javascript" src="//fightforthefuture.github.io/reset-the-net-homepage/homepage.js"></script>
 <script type="text/javascript">
+
+		$(".boxholder").click(function(){
+		     window.location=$(this).find("a").attr("href"); 
+		     return false;
+		});
+		
+		
           var _sf_async_config = { uid: 47043, domain: 'cms.fightforthefuture.org' };
           (function() {
             function loadChartbeat() {

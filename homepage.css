@@ -350,6 +350,7 @@ noscript a:hover {
 	border: 1px solid #e4e8ee;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	cursor: pointer;
 }
 
 
