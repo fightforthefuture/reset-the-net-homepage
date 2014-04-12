@@ -181,14 +181,16 @@ noscript a:hover {
 #add-yourself iframe {
     border: none;
     display: block;
-    height: 640px;
-    margin: 32px auto 0;
+    height: 460px;
+    margin: auto 0;
+    margin-top: 32px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
 @media screen and (max-width: 530px) {
     #add-yourself iframe {
-        height: 870px;
+        height: 740px;
     }
 }
 
@@ -265,9 +267,18 @@ noscript a:hover {
 
 /* HOW TO RESET */
 #how-to-reset .cloud {
-    margin-bottom: 24px;
-    width: 100%;
+    margin-bottom: 40px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 40px;
+border-bottom: 1px solid #e5ecef;
 }
+
+#how-to-reset{
+    padding-bottom: 0px;
+}
+
 
 #how-to-reset h1 {
     margin-bottom: 42px;
@@ -325,6 +336,7 @@ noscript a:hover {
 	text-align: center;
 }
 
+
 #what-to-do h1{
 	color: #fff;
 	margin-bottom: 30px;
@@ -345,8 +357,8 @@ noscript a:hover {
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1); /* drop shadow */
 	box-shadow: 0 1px 3px rgba(0,0,0,.1); /* drop shadow */	
 	/*float: left;*/
-	margin-left: 18px;
-	margin-right: 18px;
+	margin-left: 12px;
+	margin-right: 12px;
     overflow: hidden;
 	display: inline-block;
 	-webkit-transition:  0.3s ease-in-out;
@@ -530,4 +542,14 @@ padding-bottom: 14px;
     }
 }
 
+
+.container{
+	width: auto;
+}
+
+.gocenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
