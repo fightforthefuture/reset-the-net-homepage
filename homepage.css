@@ -165,6 +165,14 @@ noscript a:hover {
 }
 
 /* ADD YOUR SITE iframe & form */
+#add-yourself {
+    padding-bottom: 0;
+}
+
+#add-yourself iframe {
+    background-color: #eaeaea;
+}
+
 #add-yourself h1 {
     padding-left: 32px;
     padding-right: 32px;
