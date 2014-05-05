@@ -553,3 +553,10 @@ padding-bottom: 14px;
 	margin-right: auto;
 }
 
+#view-more-participants {
+    display: block;
+    margin: 12px auto;
+    width: 120px;
+}
+
+
