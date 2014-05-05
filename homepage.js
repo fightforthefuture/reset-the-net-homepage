@@ -42,11 +42,11 @@ function showNextGroupOfParticipants() {
     currentParticipantIndex += groupSize;
 
     // Create new HTML.
-    var groupHtml = '<div>';
+    var groupHtml = '<span>';
     slice.forEach(function(user) {
         groupHtml += createParticipantHtml(user);
     });
-    groupHtml += '</div>';
+    groupHtml += '</span>';
     var $group = $(groupHtml);
 
     // Animate the group.
