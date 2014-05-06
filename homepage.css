@@ -553,70 +553,15 @@ padding-bottom: 14px;
 	margin-right: auto;
 }
 
-
-.progress-bar{
-	color:#e32455;
-	margin:0 auto;
-	padding-top:40px;
-	text-align:right;
-	width:90%
-}
-
-.progress-bar-outer{
-	background-color:#ccc;
-	border-radius:5px;
-	box-shadow:0 1px 7px rgba(0,0,0,0.3) inset;
-	height:22px
-}
-
-.progress-bar-inner{
-	background-image:url(https://s3.amazonaws.com/fftf-cms/static/campaign/img/stripes.png);
-	border-radius:5px;
-	box-shadow:0 1px 1px rgba(255,255,255,0.5) inset;
-	display:block;
-	height:22px;
-	width:0;
-	-webkit-transition:width 2s;
-	-moz-transition:width 2s;
-	-ms-transition:width 2s;
-	-o-transition:width 2s;
-	transition:width 2s
-}
-
-.progress-bar-signatures{
-	font-family:sans-serif;
-	opacity:0;
-	padding-bottom:6px;
-	text-align:center
-}
-
-#progress-bar-count{
-	font-size:44px;
-	font-weight:bold;
-	-webkit-transition:opacity .15s;
-	-moz-transition:opacity .15s;
-	-ms-transition:opacity .15s;
-	-o-transition:opacity .15s;
-	transition:opacity .15s
-}
-
-.progress-bar-goal{
-	font-family:sans-serif;
-	font-style:italic;
-	opacity:0;
-	padding-top:12px;
-	-webkit-transition:opacity .15s;
-	-moz-transition:opacity .15s;
-	-ms-transition:opacity .15s;
-	-o-transition:opacity .15s;
-	transition:opacity .15s
-}
-
-
 #view-more-participants {
     display: block;
     margin: 12px auto;
     width: 120px;
+}
+
+.progress-bar {
+    clear: both;
+    margin: 0;
 }
 
 
