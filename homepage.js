@@ -14,7 +14,7 @@ var participants = [];
 var currentParticipantIndex = 0;
 
 // Show the Grid. Otherwise, being under development, it's hidden by default.
-$('#grid').show();
+$('#participants').show();
 
 // This is our HTML template method.
 function createParticipantHtml(user) {
@@ -57,7 +57,7 @@ function showNextGroupOfParticipants() {
     }, 432);
 
     // Append new HTML.
-    $('#grid .participants').append($group);
+    $('#participants .participants').append($group);
 
     // Hide the view more button, if we've seen everything.
     if (currentParticipantIndex >= participants.length) {

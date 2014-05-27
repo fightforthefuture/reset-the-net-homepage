@@ -198,24 +198,24 @@ noscript a:hover {
 
 
 /* PARTICIPANTS */
-#grid .participants {
+#participants .participants {
     background-color: #f0f3f5;
     border-radius: 3px;
     overflow: hidden;
     padding: 12px 4px;
     text-align: center;
 }
-#grid .participants .arrow {
+#participants .participants .arrow {
     background-image: url('../images/arrowgrid.jpg');
     background-position: top center;
     height: 40px;
     width: 100%;
     float: left;
 }
-#grid .participants .hidden {
+#participants .participants .hidden {
     display: none;
 }
-#grid .participants .slide {
+#participants .participants .slide {
     background-color: white;
     border: 1px solid #e4e8ee;
     border-radius: 5px;
@@ -232,7 +232,7 @@ noscript a:hover {
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
-#grid .participants .slide:hover {
+#participants .participants .slide:hover {
     box-shadow: 0 9px 21px rgba(39, 50, 57, .29);
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
@@ -240,12 +240,12 @@ noscript a:hover {
     -ms-transform: scale(1.05);
     transform: scale(1.05);
 }
-#grid .participants .slide a {
+#participants .participants .slide a {
     display: block;
     text-align: center;
     width: 100%;
 }
-#grid .participants .slide img {
+#participants .participants .slide img {
     border-radius: 3px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -253,7 +253,7 @@ noscript a:hover {
     max-width: 200px;
     height: 121px;
 }
-#grid .participants .slide p {
+#participants .participants .slide p {
     color: #70777a;
     font-size: 13px;
     line-height: 20px;
@@ -261,7 +261,7 @@ noscript a:hover {
     margin-top: 12px;
     width: 200px;
 }
-#grid .participants .slide p strong {
+#participants .participants .slide p strong {
     color: #606668;
 }
 
