@@ -198,6 +198,10 @@ noscript a:hover {
 
 
 /* PARTICIPANTS */
+#participants .paragraph {
+    margin: 12px 0 24px;
+    text-align: center;
+}
 #participants .participants {
     background-color: #f0f3f5;
     border-radius: 3px;
