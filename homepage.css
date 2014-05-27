@@ -188,7 +188,7 @@ noscript a:hover {
     width: 100%;
 }
 
-@media screen and (max-width: 530px) {
+@media only screen and (max-width: 530px) {
     #add-yourself iframe {
         height: 740px;
     }
