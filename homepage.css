@@ -198,12 +198,19 @@ noscript a:hover {
 
 
 /* PARTICIPANTS */
+#participants .container {
+    max-width: 1110px;
+}
+@media and screen (max-width: 1109px) {
+    #participants .container {
+        max-width: 550px;
+    }
+}
 #participants .paragraph {
     margin: 12px 0 24px;
     text-align: center;
 }
 #participants .participants {
-    background-color: #f0f3f5;
     border-radius: 3px;
     overflow: hidden;
     padding: 12px 4px;
