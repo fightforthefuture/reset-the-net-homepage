@@ -33,7 +33,7 @@ function createParticipantHtml(user) {
 
 function showNextGroupOfParticipants() {
     // Define how many participants will form a group.
-    var groupSize = 5;
+    var groupSize = 4;
 
     // Get the next group of participants.
     var slice = participants.slice(currentParticipantIndex, currentParticipantIndex + groupSize);
