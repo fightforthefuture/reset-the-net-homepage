@@ -201,7 +201,7 @@ noscript a:hover {
 #participants .container {
     max-width: 1110px;
 }
-@media and screen (max-width: 1109px) {
+@media only screen and (max-width: 1109px) {
     #participants .container {
         max-width: 550px;
     }
