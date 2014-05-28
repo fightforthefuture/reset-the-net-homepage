@@ -5,7 +5,7 @@ if (location.hash.match(/^#add-yourself/)) {
     $(window).scrollTop($('#add-yourself').offset().top);
 }
 
-if (location.hash !== '#preview28') {
+if (location.hash === '#preview28') {
     // Here are some variables we'll want to see persist.
     var participants = [];
     var currentParticipantIndex = 0;
@@ -84,7 +84,7 @@ if (location.hash !== '#preview28') {
 }
 
 
-if (location.hash !== '#preview-organizations') {
+if (location.hash === '#preview-organizations') {
     // Choose a random organization.
     var organizations = [
     {
