@@ -13,8 +13,9 @@ if (location.hash !== '#preview28') {
 var participants = [];
 var currentParticipantIndex = 0;
 
-// Show the Grid. Otherwise, being under development, it's hidden by default.
+// Show the Grids. Otherwise, being under development, it's hidden by default.
 $('#participants').show();
+$('#problems').show();
 
 // This is our HTML template method.
 function createParticipantHtml(user) {

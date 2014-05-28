@@ -275,6 +275,11 @@ noscript a:hover {
 #participants .participants .slide p strong {
     color: #606668;
 }
+#view-more-participants {
+    display: block;
+    margin: 12px auto;
+    width: 120px;
+}
 
 
 
@@ -365,6 +370,11 @@ noscript a:hover {
 }
 #problems .problems .slide p strong {
     color: #606668;
+}
+#view-more-problems {
+    display: block;
+    margin: 12px auto;
+    width: 120px;
 }
 
 /* HOW TO RESET */
@@ -653,12 +663,6 @@ padding-bottom: 14px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-#view-more-participants {
-    display: block;
-    margin: 12px auto;
-    width: 120px;
 }
 
 .progress-bar {
