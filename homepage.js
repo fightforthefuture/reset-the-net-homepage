@@ -111,7 +111,7 @@ if (location.hash === '#preview-organizations') {
     ];
 
     function getScore(weight) {
-        return 100 * Math.random() + weight;
+        return (100 + weight) * Math.random();
     }
 
     function getOrganization() {
