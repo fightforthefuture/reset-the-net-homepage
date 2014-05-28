@@ -291,6 +291,12 @@ noscript a:hover {
 #problems h1 {
     color: white;
 }
+#problems h1::before {
+    content: url(//fightforthefuture.github.io/reset-the-net-homepage/images/exclamation.png);
+    display: inline-block;
+    margin: 3px 0 0 -42px;
+    position: absolute;
+}
 #problems div.text p {
     color: white;
 }
