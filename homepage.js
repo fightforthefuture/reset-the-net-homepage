@@ -9,6 +9,7 @@ if (location.hash !== '#preview28') {
     return;
 }
 
+
 // Here are some variables we'll want to see persist.
 var participants = [];
 var currentParticipantIndex = 0;
@@ -86,5 +87,37 @@ $.ajax({
 $('#view-more-participants').on('click', showNextGroupOfParticipants);
 
 
+// Choose a random organization.
+var organizations = [
+{
+    "disclaimer": "<a href='http://www.freepress.net/' target='_blank'>Free Press</a> will contact you about future campaigns. <a href='https://www.freepress.net/privacy-copyright' target='_blank'>Privacy policy</a>",
+    "tag": "freepress-fcc-widget",
+    "weight": 5
+},
+{
+    "disclaimer": "<a href='http://demandprogress.org/' target='_blank'>Demand Progress</a> will contact you about future campaigns. <a href='http://www.demandprogress.org/privacy/' target='_blank'>Privacy policy</a>",
+    "tag": "demand-progress-fcc-widget",
+    "weight": 5
+},
+{
+    "disclaimer": "<a href='http://www.fightforthefuture.org/'>Fight for the Future</a> and <a href='http://www.thecenterforrights.org/'>Center for Rights</a> will contact you about future campaigns. <a href='http://www.fightforthefuture.org/privacy/'>Privacy Policy</a>",
+    "tag": "reset-the-net",
+    "weight": 10
+}
+];
+
+function getScore(weight) {
+    return 100 * Math.random() + weight;
+}
+
+function getOrganization() {
+    return organizations.sort(function(a, b) {
+        return getScore(b.weight) - getScore(a.weight);
+    })[0];
+}
+
+var organization = getOrganization();
+$('input[name=tag]').val(organization.tag);
+$('.disclaimer p').html(organization.disclaimer);
 
 });
