@@ -118,3 +118,5 @@ if (location.hash === '#preview-organizations') {
     $('input[name=tag]').val(organization.tag);
     $('.disclaimer p').html(organization.disclaimer);
 }
+
+});
