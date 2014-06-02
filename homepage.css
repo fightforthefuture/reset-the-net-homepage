@@ -665,8 +665,9 @@ padding-bottom: 14px;
 
 @media screen and (max-width: 460px) {
     #what-to-do .widebox a.button {
-        font-size: 13px;
-        width: 200px;
+        font-size: 12px;
+        padding: 8px 0;
+        width: 180px;
     }
 }
 
