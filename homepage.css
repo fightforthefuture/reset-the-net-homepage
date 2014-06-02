@@ -152,17 +152,17 @@ section.actions {
 }
 
 /* NoScript */
-noscript {
+.actions > noscript {
     color: white;
     display: block;
     margin-bottom: 22px;
     text-align: center;
 }
-noscript a {
+.actions > noscript a {
     color: white;
     text-decoration: none;
 }
-noscript a:hover {
+.actions > noscript a:hover {
     color: white;
     text-decoration: underline;
 }
