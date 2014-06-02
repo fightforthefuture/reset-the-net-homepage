@@ -1,5 +1,58 @@
 $(function() {
 
+// Heroic video should video.
+$('.actions').on('click', function(e) {
+    if (e.target !== this) {
+        return;
+    }
+
+    playVideo();
+});
+function playVideo() {
+    var mobile = navigator.userAgent.match(/(mobile|android)/i);
+    if (mobile) {
+        window.open('https://www.youtube.com/watch?v=qKk8MHFLNNE&feature=youtu.be');
+    } else {
+        var $el = $('#big-video');
+        if ($el.data('instantiated')) {
+            return;
+        }
+        $el.attr('height', $el.attr('x-height'));
+        $el.attr('src', $el.attr('x-src'));
+        $el.show();
+
+        $(window).on('resize', function() {
+            // Determine size of video.
+            var height = +$('.actions').css('padding-top').replace(/px/, '');
+            var width = +$('.action').css('width').replace(/px/, '') +($('.actions > .container').css('padding-right').replace(/px/, '') * 2);
+
+            // Determine margin-left of video.
+            $('body').css('overflow', 'hidden');
+            var realWindowWidth = $(window).width();
+            $('body').css('overflow', 'auto');
+            
+            var marginLeft = +($(window).width() - width) / 2;
+            if (realWindowWidth <= 460) {
+                marginLeft += 20;
+            }
+
+            // Update.
+            $el.css({
+                'height': height + 'px',
+                'margin-left': marginLeft + 'px',
+                'width': width + 'px'
+            });
+        }).trigger('resize');
+
+        // Update cursor.
+        $('section.actions').css('cursor', 'default');
+
+        $el.data('instantiated', true);
+    }
+}
+
+
+
 // Scroll to the form, if the correct hash is detected.
 if (location.hash.match(/^#add-yourself/)) {
     $(window).scrollTop($('#add-yourself').offset().top);
