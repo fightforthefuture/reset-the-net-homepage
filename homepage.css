@@ -664,10 +664,27 @@ padding-bottom: 14px;
 }
 
 @media screen and (max-width: 460px) {
+    #how-to-reset h1 {
+        font-size: 32px;
+    }
+    #how-to-reset .slide {
+        height: auto;
+        width: 250px;
+    }
+    #what-to-do h1 {
+        font-size: 26px;
+        padding: 0 20px;
+    }
     #what-to-do .widebox a.button {
         font-size: 12px;
         padding: 8px 0;
         width: 180px;
+    }
+    #participants h1 {
+        font-size: 32px;
+    }
+    #add-yourself h1 {
+        font-size: 26px;
     }
 }
 
