@@ -104,21 +104,6 @@ It looks like you have JavaScript disabled. Here's a
 </ul>
 </div>
 </div>
-<script type="text/javascript">
-
-function getip(json){
-    var ipElement = document.getElementsByName('member[ip_address]')[0],
-        uaElement = document.getElementsByName('member[user_agent]')[0];
-
-    if (!ipElement) {
-        return;
-    }
-
-    ipElement.value = json.ip;
-    uaElement.value = navigator.userAgent;
-}
-</script>
-<script type="application/javascript" src="//fftf-ips.heroku.com/?callback=getip"></script>
 </section>
 </div>
 </section>
