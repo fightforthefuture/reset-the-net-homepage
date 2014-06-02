@@ -663,6 +663,13 @@ padding-bottom: 14px;
     }
 }
 
+@media screen and (max-width: 460px) {
+    #what-to-do .widebox a.button {
+        font-size: 13px;
+        width: 200px;
+    }
+}
+
 
 .container{
 	width: auto;
