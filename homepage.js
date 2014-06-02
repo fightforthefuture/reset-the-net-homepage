@@ -13,18 +13,24 @@ var currentParticipantIndex = 0;
 $('#participants').show();
 
 // This is our HTML template method.
-function createParticipantHtml(user) {
+function createParticipantElement(user) {
     var html = '<div id="user-' + user._id + '" class="slide">' +
         '<meta name="user_id" content="' + user._id + '">' +
-        '<a target="_top" href="' + user.url + '">' +
-        '<img src="' + (user.image || '//fightforthefuture.github.io/reset-the-net-form/images/happycat.jpg') + '">' +
+        '<a target="_top">' +
+        '<img src="">' +
         '</a>' +
         '<p>' +
         '<strong>' + user.name + '</strong> <span>' + user.description + '</span>' +
         '</p>' +
         '</div>';
 
-    return html;
+    var $el = $(html);
+    $el.find('a').attr('href', user.url);
+    $el.find('img').attr('src', (user.image || '//fightforthefuture.github.io/reset-the-net-form/images/happycat.jpg'));
+    $el.find('strong').text(user.name);
+    $el.find('span').text(user.description);
+
+    return $el;
 }
 
 function showNextGroupOfParticipants() {
@@ -38,12 +44,10 @@ function showNextGroupOfParticipants() {
     currentParticipantIndex += groupSize;
 
     // Create new HTML.
-    var groupHtml = '<span>';
+    var $group = $('<span>');
     slice.forEach(function(user) {
-        groupHtml += createParticipantHtml(user);
+        $group.append(createParticipantElement(user));
     });
-    groupHtml += '</span>';
-    var $group = $(groupHtml);
 
     // Animate the group.
     $group.css({
