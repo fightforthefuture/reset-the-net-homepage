@@ -14,7 +14,7 @@
     font-weight: 600;
     line-height: 1.4;
     color: #175879;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 .block div.text p {
@@ -25,7 +25,7 @@
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .actions div.container {
     border-top: 8px solid #a7ddfa;
@@ -92,7 +92,7 @@ a {
     text-align: center;
 }
 .navigation a {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     padding-left: 23px;
     padding-right: 23px;
@@ -118,7 +118,7 @@ section.actions {
 
 @media only screen and (min-width : 320px) and (max-width : 568px) {
     .navigation a {
-        font-family: Montserrat, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 10px;
         padding-left: 8px;
         padding-right: 8px;
@@ -438,7 +438,7 @@ border-bottom: 1px solid #e5ecef;
 
 #how-to-reset .slide p {
     color: #537789;
-    font-family: Montserrat,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.6;
@@ -531,7 +531,7 @@ font-size: 30px;
 #what-to-do .boxtext{
 font-size: 13px;
 text-align: center;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 padding-left: 20px;
 padding-right: 20px;
 padding-top: 18px;
@@ -616,7 +616,7 @@ border-bottom: 4px solid #8b909a;
 
 
 #what-to-do .widebox p{
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	float: left;
 	width: 60%;
