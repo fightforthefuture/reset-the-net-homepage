@@ -27,6 +27,9 @@
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
+footer.block {
+    padding: 30px;
+}
 .actions div.container {
     border-top: 8px solid #a7ddfa;
 }
