@@ -15,14 +15,6 @@
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 
-.row {
-  padding-top: 15px;
-  padding-left: 30%;
-  padding-right: 30%;
-  margin: 0;
-
-}
-
 .badge-title {
   font-size: 18pt;
   color: #227dd2;
@@ -33,17 +25,6 @@
   font-size: 12pt;
   color: #185991;
   text-align: center;
-}
-
-.col-right {
-  max-width: 45%;
-  display: inline;
-}
-
-.col-left {
-  max-width: 45%;
-  display: inline;
-  float: right;
 }
 
 .centered-image {
