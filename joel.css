@@ -9,11 +9,17 @@
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif;
 }
-
+body {
+	padding-top:51px !important;
+}
 /* Navigation */
 .navigation {
 	height:51px;
 	background: #1a578f;
+	position:fixed;
+	z-index:999;
+	width:100%;
+	top:0;
 }
 
 .navigation .navinn {
@@ -45,8 +51,8 @@
 /* Social Buttons */
 
 .sharing-buttons {
-	position: fixed;
-	top:48px;
+	/*position: fixed;*/
+	top:200px;
 	left:0;
 }
 
@@ -106,12 +112,25 @@ footer {
 footer.block a {color:#2583db;text-decoration: none;}
 
 
-
-
-
 #privacy-pack {border-bottom: none;}
 
 
+/* Autofix */
+
+.autofix_sb.fixed {
+  position: fixed !important;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  height: 100%;
+  overflow:auto;
+}
+
+.autofix_sb.fixed.bottom {
+  bottom: 0;
+  position: absolute !important;
+}
 
 
 

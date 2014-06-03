@@ -198,7 +198,11 @@ $('.disclaimer p').html(organization.disclaimer);
 
 
 
-
+// Autofix sharing buttons
+$(".sharing-buttons").autofix_anything({
+  customOffset: 500, // You can define custom offset for when you want the container to be fixed. This option takes the number of pixels from the top of the page. The default value is false which the plugin will automatically fix the container when the it is in the viewport
+  onlyInContainer: false // Set this to false if you don't want the fixed container to limit itself to the parent's container.
+});
 
 
 
