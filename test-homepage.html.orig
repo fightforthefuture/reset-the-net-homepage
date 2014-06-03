@@ -2,6 +2,8 @@
 
 <html lang="en">
 <head>
+<<<<<<< HEAD
+=======
 <script data-cfasync="false" src="//cdn.optimizely.com/js/342017080.js"></script>
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 <meta charset="utf-8"/>
@@ -25,6 +27,7 @@
 <!--[if lte IE 8]>
         <script type="text/javascript" src="https://s3.amazonaws.com/fftf-cms/static/js/ie8.js"></script>
         <![endif]-->
+>>>>>>> 88d68cd8acd1af924038f0346d21869ad5dd56c6
 
   <script data-cfasync="false" src="//cdn.optimizely.com/js/342017080.js"></script>
   <script type="text/javascript">
@@ -214,14 +217,142 @@ body{padding-top:0;}.actions{background:none;background-image:url(https://s3.ama
         return;
         }
 
+<<<<<<< HEAD
         ipElement.value = json.ip;
         uaElement.value = navigator.userAgent;
         }
         </script> <script src="//fftf-ips.heroku.com/?callback=getip"
         type="application/javascript"></script>
       </section>
-    </div>
-  </section>
+=======
+    ipElement.value = json.ip;
+    uaElement.value = navigator.userAgent;
+}
+</script>
+<script type="application/javascript" src="//fftf-ips.heroku.com/?callback=getip"></script>
+</section>
+</div>
+</section>
+<section id="how-to-reset" class="block group has-image">
+<div class="container">
+<div class="text">
+<img class="cloud" src="//fightforthefuture.github.io/reset-the-net-homepage/images/cloud.png">
+<h1>How to #ResetTheNet</h1>
+<div class="slides">
+<div class="slide">
+<h2>The problem</h2>
+<img src="//fightforthefuture.github.io/reset-the-net-homepage/images/cameras.png">
+<p>The NSA is exploiting weak links in Internet security to spy on the entire world, twisting the Internet we love into something it was never meant to be: a panopticon.</p>
+</div>
+<div class="slide">
+<h2>The solution</h2>
+<img src="//fightforthefuture.github.io/reset-the-net-homepage/images/operator.png">
+<p>We can't stop targeted attacks, but we *can* stop mass surveillance, by building proven security into the everyday Internet.</p>
+</div>
+<div class="slide">
+<h2>The plan</h2>
+<img src="//fightforthefuture.github.io/reset-the-net-homepage/images/team.png">
+<p>First, get hundreds of sites & apps to add proven security (<a href="http://resetthenet.tumblr.com/post/84137916350/how-we-secure-the-web-https-hsts-pfs">like SSL</a>). Then on June 5, we'll run a <a href="http://resetthenet.tumblr.com/post/84330794665/the-reset-the-net-splash-screen">splash screen</a> *everywhere* to spread NSA-resistant privacy tools.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="block" id="what-to-do">
+<div class="container">
+<h1>What you can do, right now!</h1>
+<div class="boxholder">
+<div class="boxheader">
+<h2>Websites</h2>
+</div>
+<div class="boxtext">
+<p>Pledge to add <a href="http://resetthenet.tumblr.com/post/84137916350/how-we-secure-the-web-https-hsts-pfs">SSL, HSTS & PFS</a> protection this year; it matters! Then, on June 5th, run the <a href="http://resetthenet.tumblr.com/post/84330794665/the-reset-the-net-splash-screen">splash screen</a> to promote <a href="http://resetthenet.tumblr.com/post/84330794665/the-reset-the-net-splash-screen">free software for end-to-end encryption</a>. Already rocking SSL & HSTS? Consider approaches to end-to-end crypto.</p>
+</div>
+<a href="#add-yourself" class="button">ADD YOUR SITE</a>
+</div>
+<div class="boxholder">
+<div class="boxheader">
+<h2>Mobile apps</h2>
+</div>
+<div class="boxtext">
+<p>If your app talks to a server, use <a href="http://resetthenet.tumblr.com/post/84327981750/how-we-secure-our-phones-ssl-cert-pinning-pfs">SSL & cert pinning</a>, and make sure all third party code like ads & analytics does too. If it's a messaging app, consider end-to-end encryption. Then on June 5th, send a push notification to promote a <a href="http://resetthenet.tumblr.com/post/84331967485/the-privacy-pack">mobile privacy pack</a>.</p>
+</div>
+<a href="#add-yourself" class="button">ADD YOUR APP</a>
+</div>
+<div class="boxholder">
+<div class="boxheader">
+<h2>All of us</h2>
+</div>
+<div class="boxtext">
+<p>Pledge to try & share NSA-resistant privacy tools on June 5th, and join the <a href="https://www.thunderclap.it/projects/10619-reset-the-net/">Thunderclap</a> to protest on social media. In the meantime, join the #ResetTheNet <a href="http://resetthenet.tumblr.com/post/84338081775/twitter-brigade">Twitter brigade</a> & help get more sites to join in.</p>
+</div>
+<a href="https://www.thunderclap.it/projects/10619-reset-the-net/" class="button">JOIN THUNDERCLAP</a>
+</div>
+<div class="widebox">
+<p>Wherever you are, whatever you do, there are concrete
+ways to win huge victories for privacy, right now.</p>
+<a class="button" href="http://resetthenet.tumblr.com/post/84333133940/more-ways-to-win-against-mass-surveillance">More Ways to Participate</a>
+</div>
+</div>
+</section>
+<div id="participants" class="block" style="display: none;">
+<div class="container">
+<div class="text">
+<h1>Participants</h1>
+<div class="paragraph">
+<a class="btn btn-info" href="#add-yourself">ADD YOUR SITE</a>
+</div>
+<div class="participants"></div>
+<a id="view-more-participants" class="btn btn-inverse">SHOW MORE</a>
+</div>
+</div>
+</div>
+<div id="problems" class="block" style="display: none;">
+<div class="container">
+<div class="text">
+<h1>Problems</h1>
+<p>Lorem ipsum lorem ipsum</p>
+<div class="problems">
+<div class="slide">
+<a target="_top" href="http://en.wikipedia.org/wiki/Bullrun_%28decryption_program%29"><img src="//fightforthefuture.github.io/reset-the-net-homepage/images/problem.png"></a>
+<p>
+<strong>Lorem Ipsum</strong> <span>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span>
+</p>
+</div>
+<div class="slide">
+<a target="_top" href="http://en.wikipedia.org/wiki/Bullrun_%28decryption_program%29"><img src="//fightforthefuture.github.io/reset-the-net-homepage/images/problem.png"></a>
+<p>
+<strong>Lorem Ipsum</strong> <span>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span>
+</p>
+</div>
+<div class="slide">
+<a target="_top" href="http://en.wikipedia.org/wiki/Bullrun_%28decryption_program%29"><img src="//fightforthefuture.github.io/reset-the-net-homepage/images/problem.png"></a>
+<p>
+<strong>Lorem Ipsum</strong> <span>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span>
+</p>
+</div>
+<div class="slide">
+<a target="_top" href="http://en.wikipedia.org/wiki/Bullrun_%28decryption_program%29"><img src="//fightforthefuture.github.io/reset-the-net-homepage/images/problem.png"></a>
+<p>
+<strong>Lorem Ipsum</strong> <span>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span>
+</p>
+</div>
+</div>
+ 
+</div>
+</div>
+</div>
+<section id="add-yourself" class="block">
+<div class="container">
+<div class="text">
+<h1>Add your website, company, or app.</h1>
+<p>How you participate is up to you, but be ambitious! Sites: promise to add <a href="http://resetthenet.tumblr.com/post/84137916350/how-we-secure-the-web-https-hsts-pfs">HTTPS, HSTS, and PFS</a> this year. Mobile apps: add <a href="http://resetthenet.tumblr.com/post/84327981750/how-we-secure-our-phones-ssl-cert-pinning-pfs">SSL & cert pinning</a>, including for third party code like ad networks and analytics. Large companies should follow the <a href="http://encryptallthethings.net/">Encrypt all the Things</a> <a href="https://encryptallthethings.net/docs/EATT.pdf">Data Security Action Plan</a>. Everyone else: promote the <a href="http://resetthenet.tumblr.com/post/84331967485/the-privacy-pack">privacy pack</a> on June 5th to spread privacy tools!</p>
+</div>
+</div>
+<iframe src="https://fightforthefuture.github.io/reset-the-net-form/">
+<a href="https://fightforthefuture.github.io/reset-the-net-form/">Click here</a> to view the form directly.
+</iframe>
+</section>
 
 <section id="privacy-pack" class="block">
 <div class="text">
@@ -231,6 +362,22 @@ body{padding-top:0;}.actions{background:none;background-image:url(https://s3.ama
   <div class="row">
     <div class="col-right badge-title">
       Modal - Splash Screen
+>>>>>>> 88d68cd8acd1af924038f0346d21869ad5dd56c6
+    </div>
+  </section>
+
+  <section class="block group has-image" id="how-to-reset">
+
+    <div class="sharing-buttons">
+      <a href="#" class="share twitter">
+        Share <span>on</span> Twitter
+      </a>
+      <a href="#" class="share facebook">
+        Share <span>on</span> Facebook
+      </a>
+      <a href="#" class="share googleplus">
+        Share <span>on</span> Google+
+      </a>
     </div>
 
     <div class="container">
@@ -418,60 +565,11 @@ body{padding-top:0;}.actions{background:none;background-image:url(https://s3.ama
     </div>
   </div>
 
-  <div class="row">
-    <div class="divider"></div>
-  </div>
-
-  <div class="row">
-    <div class="well">
-      <img class="centered-image" src="/images/banner-wide.png"></img>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-right badge-title">Long Banner</div>
-    <div class="col-left badge-help">
-      For help putting this up, <a href="#">Click Here</a>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="well">
-      &lt;script src="//fightforthefuture.github.io/reset-the-net-widget/widget/rtn.js"&gt;&lt;/script&gt;
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="divider"></div>
-  </div>
-
-  <div class="row">
-    <div class="well">
-      <img class="centered-image" src="/images/banner-take-back.png"></img>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-right badge-title">Short Banner</div>
-    <div class="col-left badge-help">
-      For help putting this up, <a href="#">Click Here</a>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="well">
-      &lt;script src="//fightforthefuture.github.io/reset-the-net-widget/widget/rtn.js"&gt;&lt;/script&gt;
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="divider"></div>
-  </div>
-
-
-
-</div>
-</section>
+<<<<<<< HEAD
+  <section class="block" id="add-yourself">
+    <div class="container">
+      <div class="text">
+        <h1>Add your website, company, or app.</h1>
 
         <p>How you participate is up to you, but be ambitious! Sites:
         promise to add <a href=
@@ -548,6 +646,123 @@ body{padding-top:0;}.actions{background:none;background-image:url(https://s3.ama
         var $el = $('#big-video');
         if ($el.data('instantiated')) {
           return;
+=======
+  <div class="row">
+    <div class="divider"></div>
+  </div>
+
+  <div class="row">
+    <div class="well">
+      <img class="centered-image" src="/images/banner-wide.png"></img>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-right badge-title">Long Banner</div>
+    <div class="col-left badge-help">
+      For help putting this up, <a href="#">Click Here</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="well">
+      &lt;script src="//fightforthefuture.github.io/reset-the-net-widget/widget/rtn.js"&gt;&lt;/script&gt;
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="divider"></div>
+  </div>
+
+  <div class="row">
+    <div class="well">
+      <img class="centered-image" src="/images/banner-take-back.png"></img>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-right badge-title">Short Banner</div>
+    <div class="col-left badge-help">
+      For help putting this up, <a href="#">Click Here</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="well">
+      &lt;script src="//fightforthefuture.github.io/reset-the-net-widget/widget/rtn.js"&gt;&lt;/script&gt;
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="divider"></div>
+  </div>
+
+
+
+</div>
+</section>
+
+<footer class="block">
+<div class="container">
+<p>A project of <a href="https://www.fightforthefuture.org/">Fight for the Future</a>. No copyright intended.<span class="don"> Help us by <a href="https://donate.fightforthefuture.org">Donating.</a></span></p>
+</div>
+</footer>
+ 
+<img src="https://analytics.taskforce.is/piwik.php?idsite=2&amp;rec=1" style="border:0" alt=""/>
+ 
+<script type="text/javascript" src="https://s3.amazonaws.com/fftf-cms/cache/js/e0c4f9e24445.js"></script>
+<script>
+
+        $('.actions').on('click', function(e) {
+            if (e.target !== this) {
+                return;
+            }
+
+            playVideo();
+        });
+        function playVideo() {
+            var mobile = navigator.userAgent.match(/(mobile|android)/i);
+            if (mobile) {
+                window.open('https://www.youtube.com/watch?v=qKk8MHFLNNE&feature=youtu.be');
+            } else {
+                var $el = $('#big-video');
+                if ($el.data('instantiated')) {
+                    return;
+                }
+                $el.attr('height', $el.attr('x-height'));
+                $el.attr('src', $el.attr('x-src'));
+                $el.show();
+
+                $(window).on('resize', function() {
+                    // Determine size of video.
+                    var height = +$('.actions').css('padding-top').replace(/px/, '');
+                    var width = +$('.action').css('width').replace(/px/, '') +($('.actions > .container').css('padding-right').replace(/px/, '') * 2);
+
+                    // Determine margin-left of video.
+                    $('body').css('overflow', 'hidden');
+                    var realWindowWidth = $(window).width();
+                    $('body').css('overflow', 'auto');
+                    
+                    var marginLeft = +($(window).width() - width) / 2;
+                    if (realWindowWidth <= 460) {
+                        marginLeft += 20;
+                    }
+
+                    // Update.
+                    $el.css({
+                        'height': height + 'px',
+                        'margin-left': marginLeft + 'px',
+                        'width': width + 'px'
+                    });
+                }).trigger('resize');
+
+                // Update cursor.
+                $('section.actions').css('cursor', 'default');
+
+                $el.data('instantiated', true);
+            }
+            
+>>>>>>> 88d68cd8acd1af924038f0346d21869ad5dd56c6
         }
         $el.attr('height', $el.attr('x-height'));
         $el.attr('src', $el.attr('x-src'));
