@@ -3,6 +3,13 @@
 	Don't mind style or sense in this file, I'll fix that later :);
 */
 
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
 /* Navigation */
 .navigation {
 	height:51px;
@@ -45,42 +52,64 @@
 
 .sharing-buttons .share {
 	display: block;
-	width:175px;
+	width:185px;
+	left:-10px;
 	height:40px;
 	background: #000;
 	text-decoration: none;
 	border-radius: 0 3px 3px 0;
-	padding:6px 20px;
+	padding:8px 12px;
 	color:#fff;
 	font-weight: bold;
 	margin-bottom:10px;
+	font-size: 13px;
+	box-sizing:border-box;
 }
 
-.sharing-buttons span {font-weight: normal;}
+.sharing-buttons .share:hover {
+	left:0px;
+}
+
+.sharing-buttons span.light {font-weight: normal;}
 
 .sharing-buttons .share.twitter {
-
+	background: #59adeb;
 }
 
 .sharing-buttons .share.facebook {
-
+	background: #3c5a96;
 }
 
 .sharing-buttons .share.googleplus {
-
+	background: #db585a;
 }
 
 
 
+/* Footer */
+
+footer {
+    /*padding: 30px;*/
+    height:148px !important;
+    border-top:5px solid #e0ebf5 ;
+    background: #edf3f9;
+    text-align: center;
+    color:#175879;
+    font-style: 24px;
+    padding:48px 0 36px 0;
+    font-weight: bold;
+    box-sizing:border-box;
+    position: relative;
+    bottom:-20px;
+}
+
+footer.block a {color:#2583db;text-decoration: none;}
 
 
 
 
 
-
-
-
-
+#privacy-pack {border-bottom: none;}
 
 
 
