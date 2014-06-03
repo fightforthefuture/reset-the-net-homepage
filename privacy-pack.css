@@ -7,7 +7,7 @@
   color: #8c98a4;
   min-height: 20px;
   padding: 19px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   background-color: #f3f7fc;
   border: 1px solid #e3e3e3;
   border-radius: 4px;
@@ -17,10 +17,10 @@
 
 .dark-well {
   text-align: center;
-  color: #95a2ae;
+  color: #333;
   min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
+  padding: 18px 12px;
+  margin-bottom: 35px;
   background-color: #d0e1f2;
   border: 1px solid #e3e3e3;
   word-break: break-all;
@@ -31,15 +31,28 @@
 
 
 .badge-title {
-  font-size: 18pt;
-  color: #227dd2;
+  font-size: 20px;
+  color: #297fcf;
   text-align: center;
+  padding:20px 0;
+  font-weight: bold
+}
+
+.badge-title.right {
+  text-align:right;
 }
 
 .badge-help {
-  font-size: 12pt;
+  font-size: 12px;
   color: #185991;
+  text-align: left;
+  padding: 20px 0;
+  line-height: 30px;
+}
+
+.badge-help.small {
   text-align: center;
+  margin-top:-50px;
 }
 
 .centered-image {
