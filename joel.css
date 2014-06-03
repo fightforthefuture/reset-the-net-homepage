@@ -37,25 +37,36 @@
 
 /* Social Buttons */
 
-.social-buttons {
+.sharing-buttons {
 	position: fixed;
 	top:48px;
 	left:0;
 }
 
-.social-buttons .share {
+.sharing-buttons .share {
+	display: block;
+	width:175px;
+	height:40px;
+	background: #000;
+	text-decoration: none;
+	border-radius: 0 3px 3px 0;
+	padding:6px 20px;
+	color:#fff;
+	font-weight: bold;
+	margin-bottom:10px;
+}
+
+.sharing-buttons span {font-weight: normal;}
+
+.sharing-buttons .share.twitter {
 
 }
 
-.social-buttons .share.twitter {
+.sharing-buttons .share.facebook {
 
 }
 
-.social-buttons .share.facebook {
-
-}
-
-.social-buttons .share.googleplus {
+.sharing-buttons .share.googleplus {
 
 }
 
