@@ -1,0 +1,35 @@
+/*
+	I'm putting the new styles here meanwhile, we can merge them later – Joel
+	Don't mind style or sense in this file, I'll fix that later :);
+*/
+
+.navigation {
+	height:51px;
+	background: #1a578f;
+}
+
+.navigation .navinn {
+	width:768px;
+	padding:12px;
+	margin:0px auto;
+	text-align: center;
+}
+
+.navigation .navinn .nav-item {
+	color:#5093d0;
+	padding:10px 10px 7px 10px;
+	margin:0 10px;
+	font-size:13px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family:'Montserrat';
+}
+
+.navigation .navinn .nav-item:hover {
+	color:rgba(255,255,255,0.9);
+}
+
+.navigation .navinn .nav-item.active {
+	color:#fff;
+	border-bottom:2px solid;
+}

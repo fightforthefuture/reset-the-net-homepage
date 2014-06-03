@@ -129,34 +129,7 @@ a {
     font-weight: 500;
     line-height: 1.7;
 }
-.navigation {
-    /* Temporary */
-    display: none; 
 
-    background-color: #1371a6;
-    height: 30px;
-    padding-top: 13px;
-    width: 100%;
-}
-.navinn {
-    width: 60%;
-    margin: 0px auto;
-    text-align: center;
-}
-.navigation a {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    padding-left: 23px;
-    padding-right: 23px;
-    text-decoration: none;
-    margin-top: 3px;
-    color: #fff;
-    line-height: 0;
-    border-right: 1px solid #449dcb;
-}
-.navigation a:last-child {
-    border: none;
-}
 section.actions {
     padding-top: 35%;
     background-size: 120%;
