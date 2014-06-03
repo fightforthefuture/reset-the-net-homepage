@@ -131,6 +131,8 @@ $.ajax({
         // Show the next couple of groups.
         showNextGroupOfParticipants();
         showNextGroupOfParticipants();
+        showNextGroupOfParticipants();
+        showNextGroupOfParticipants();
     }
 });
 

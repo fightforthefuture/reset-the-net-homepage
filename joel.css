@@ -3,6 +3,7 @@
 	Don't mind style or sense in this file, I'll fix that later :);
 */
 
+/* Navigation */
 .navigation {
 	height:51px;
 	background: #1a578f;
@@ -33,3 +34,46 @@
 	color:#fff;
 	border-bottom:2px solid;
 }
+
+/* Social Buttons */
+
+.social-buttons {
+	position: fixed;
+	top:48px;
+	left:0;
+}
+
+.social-buttons .share {
+
+}
+
+.social-buttons .share.twitter {
+
+}
+
+.social-buttons .share.facebook {
+
+}
+
+.social-buttons .share.googleplus {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
