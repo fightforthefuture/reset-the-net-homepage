@@ -15,7 +15,7 @@ $(window).resize(function() {
     $(".share.googleplus").css("width", "35px").html("<img src='images/google-plus.png' alt=''></img>");
   } else {
     $(".share.twitter").css("width", "185px").html("<img src='images/twitter.png' alt=''></img> <span class='text'>&nbsp; Share <span class='light'>on</span> Twitter</span>"); 
-    $(".share.facebook").css("width", "185px").html("<img src='images/facebook.png' alt=''></img> <span class='text'>&nbsp; Share <span class='light'>on</span>Facebook</span>");
+    $(".share.facebook").css("width", "185px").html("<img src='images/facebook.png' alt=''></img> <span class='text'>&nbsp; Share <span class='light'>on</span> Facebook</span>");
     $(".share.googleplus").css("width", "185px").html("<img src='images/google-plus.png' alt=''></img> <span class='text'>&nbsp; Share <span class='light'>on</span> Google+</span>"); 
   };
 });
