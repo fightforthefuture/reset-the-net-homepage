@@ -89,7 +89,73 @@ body {
 	background: #db585a;
 }
 
+/* Quotes */
 
+#quotes {
+	padding-bottom:80px;
+}
+
+.quotes-container {
+	max-width:960px;
+	margin:0px auto;
+}
+
+.quote {
+	width:280px;
+	height:280px;
+	background: #4c5d6c;
+	padding-top:15px;
+	font-weight: normal;
+	border-radius: 4px;
+	position: relative;
+	box-sizing:border-box;
+}
+
+	.snowden {
+		background-image: url(/images/snowden-background.png);
+	}
+	.bruce {
+		background-image: url(/images/bruce-background.png);
+	}
+	.granick {
+		background-image: url(/images/granick-background.png);
+	}
+
+.quote p {
+	color:#fff !important;
+	line-height: 20px !important;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.quote p a {
+	color:#fff;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+
+.quote img.profile {
+	position: absolute;
+	border-radius: 50%;
+	border:2px solid #5189be;
+	left:50%;
+	margin-left:-28px;
+	bottom:36px;
+}
+
+.quote span {
+	display: block;
+	color:#eee;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10px;
+	position: absolute;
+	bottom: 10px;
+	width:100%;
+}
 
 /* Footer */
 
