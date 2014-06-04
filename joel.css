@@ -19,7 +19,7 @@ body {
 }
 
 .navigation .navinn {
-	width:768px;
+	max-width:768px;
 	padding:12px;
 	margin:0px auto;
 	text-align: center;
@@ -186,6 +186,7 @@ footer.block a {color:#2583db;text-decoration: none;}
  .ribbon {
    background-color: #a00;
    overflow: hidden;
+   display: none;
    white-space: nowrap;
    /* top left corner */
    position: fixed;
@@ -215,7 +216,21 @@ footer.block a {color:#2583db;text-decoration: none;}
    text-shadow: 0 0 5px #444;
  }
 
-
+@media only screen and (max-width: 768px) {
+	.navigation .navinn {
+		padding:12px 4px;
+	}
+    .navigation .navinn .nav-item {
+		color:#5093d0;
+		padding:10px 2px 7px 2px;
+		margin:0 2px;
+		font-size:13px;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-family:'Montserrat';
+	}
+	.navigation .navinn .press-nav-item {display: none}
+}
 
 
 
