@@ -244,6 +244,10 @@ footer.block a {color:#2583db;text-decoration: none;}
 		display: none;
 	}
 
+	.quotes-container {
+	    max-width: 280px;
+	}
+
 }
 
 
