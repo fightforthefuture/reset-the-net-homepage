@@ -3,12 +3,8 @@
 	Don't mind style or sense in this file, I'll fix that later :);
 */
 
-@import url(/brandico.css);
+@import url(fonts/brandico.css);
 
-/* brandico */
-[class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
-}
 body {
 	/*padding-top:51px !important;*/
 }

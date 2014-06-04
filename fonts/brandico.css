@@ -3,12 +3,18 @@
     font-family: 'brandico';
     font-style: normal;
     font-weight: normal;
-    src: url('/fonts/brandico.eot');
-    src: url('/fonts/brandico.eot?#iefix') format('eot'), 
-    url('/fonts/brandico.woff') format('woff'), 
-    url('/fonts/brandico.ttf') format('truetype'), 
-    url('/fonts/brandico.svg#brandico') format('svg');
+    src: url('./fonts/brandico.eot');
+    src: url('./fonts/brandico.eot?#iefix') format('eot'), 
+    url('./fonts/brandico.woff') format('woff'), 
+    url('./fonts/brandico.ttf') format('truetype'), 
+    url('./fonts/brandico.svg#brandico') format('svg');
 }
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
 
 .brandico-facebook:before {
     content: "\f300"
