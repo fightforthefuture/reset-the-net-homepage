@@ -1,3 +1,7 @@
+
+@import url('fonts/montserrat.css');
+@import url('fonts/opensans/open-sans.css');
+
 .block.has-image .text {
     float: left;
     width: 80%;
@@ -676,7 +680,4 @@ padding-bottom: 14px;
     margin: 0;
 }
 
-/* Fonts */
 
-@import 'fonts/montserrat.css';
-@import 'fonts/opensans/open-sans.css';
