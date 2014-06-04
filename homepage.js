@@ -74,8 +74,7 @@ $('.actions').on('click', function(e) {
     if (e.target !== this) {
         return;
     }
-    // playVideo();
-    window.open('https://www.youtube.com/watch?v=qKk8MHFLNNE&feature=youtu.be');
+    playVideo();
 });
 
 function playVideo() {
