@@ -9,15 +9,6 @@
 
 
 $(function() {
-
-    // Catch partial hashes.
-    if (location.hash.match(/^#add-yourself/)) {
-        $('#add-yourself').goTo();
-    }
-    if (location.hash.match(/^#splash-screen/)) {
-        $('#splash-screen').goTo();
-    }
-
     var prev; //keep track of previous selected link
     var isVisible= function(el){
         el = $(el);
@@ -187,12 +178,19 @@ $.ajax({
         // Save the participants.
         participants = res;
 
-        // Show the next couple of groups.
+        // Show the next several groups.
         showNextGroupOfParticipants();
         showNextGroupOfParticipants();
-        
         showNextGroupOfParticipants();
         showNextGroupOfParticipants();
+
+        // Catch partial hashes.
+        if (location.hash.match(/^#add-yourself/)) {
+            $('#add-yourself').goTo();
+        }
+        if (location.hash.match(/^#splash-screen/)) {
+            $('#splash-screen').goTo();
+        }
     }
 });
 
