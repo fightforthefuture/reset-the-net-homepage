@@ -1,7 +1,7 @@
 (function($) {
     $.fn.goTo = function() {
         $('html, body').animate({
-            scrollTop: $(this).offset().top + 'px'
+            scrollTop: $(this).offset().top - 14 + 'px'
         }, 750);
         return this;
     }
