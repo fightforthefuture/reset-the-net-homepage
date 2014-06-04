@@ -3,7 +3,7 @@
 	Don't mind style or sense in this file, I'll fix that later :);
 */
 
-@import url(http://weloveiconfonts.com/api/?family=brandico);
+@import url(/brandico.css);
 
 /* brandico */
 [class*="brandico-"]:before {
@@ -51,9 +51,10 @@ body {
 /* Social Buttons */
 
 .sharing-buttons {
-	/*position: fixed;*/
-	top:200px;
+	position: fixed;
+	top:455px;
 	left:0;
+	z-index:99;
 }
 
 .sharing-buttons .share {
@@ -113,26 +114,6 @@ footer.block a {color:#2583db;text-decoration: none;}
 
 
 #privacy-pack {border-bottom: none;}
-
-
-/* Autofix */
-
-.autofix_sb.fixed {
-  position: fixed !important;
-  left: auto;
-  top: auto;
-  right: auto;
-  bottom: auto;
-  height: 100%;
-  overflow:auto;
-}
-
-.autofix_sb.fixed.bottom {
-  bottom: 0;
-  position: absolute !important;
-}
-
-
 
 
 
