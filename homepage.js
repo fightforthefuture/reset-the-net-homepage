@@ -62,14 +62,17 @@ $('.actions').on('click', function(e) {
     if (e.target !== this) {
         return;
     }
-
-    playVideo();
+    // playVideo();
+    window.open('https://www.youtube.com/watch?v=qKk8MHFLNNE&feature=youtu.be');
 });
+
 function playVideo() {
+
     var mobile = navigator.userAgent.match(/(mobile|android)/i);
     if (mobile) {
         window.open('https://www.youtube.com/watch?v=qKk8MHFLNNE&feature=youtu.be');
     } else {
+        
         var $el = $('#big-video');
         if ($el.data('instantiated')) {
             return;
