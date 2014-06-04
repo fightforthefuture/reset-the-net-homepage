@@ -177,7 +177,10 @@ footer {
 footer.block a {color:#2583db;text-decoration: none;}
 
 
-#privacy-pack {border-bottom: none;}
+#privacy-pack {
+	border-bottom: none;
+	padding: 20px;
+}
 
 
 /* Ribbon */
