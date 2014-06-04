@@ -3,7 +3,7 @@
         $('html, body').animate({
             scrollTop: $(this).offset().top + 'px'
         }, 750);
-        return this; // for chaining...
+        return this;
     }
 })(jQuery);
 

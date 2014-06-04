@@ -83,6 +83,8 @@ body {
 	background: #3c5a96;
 }
 
+	.sharing-buttons .share.facebook img {margin-top:-3px;}
+
 .sharing-buttons .share.googleplus {
 	background: #db585a;
 }
