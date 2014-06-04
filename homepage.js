@@ -10,6 +10,14 @@
 
 $(function() {
 
+    // Catch partial hashes.
+    if (location.hash.match(/^#add-yourself/)) {
+        $('#add-yourself').goTo();
+    }
+    if (location.hash.match(/^#splash-screen/)) {
+        $('#splash-screen').goTo();
+    }
+
     var prev; //keep track of previous selected link
     var isVisible= function(el){
         el = $(el);
@@ -107,13 +115,6 @@ function playVideo() {
 
         $el.data('instantiated', true);
     }
-}
-
-
-
-// Scroll to the form, if the correct hash is detected.
-if (location.hash.match(/^#add-yourself/)) {
-    $(window).scrollTop($('#add-yourself').offset().top);
 }
 
 // Here are some variables we'll want to see persist.
