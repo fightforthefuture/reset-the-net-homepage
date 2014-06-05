@@ -8,6 +8,18 @@
 })(jQuery);
 
 
+$(window).resize(function() {
+  if($(window).width() < 750){
+    $(".share.twitter").css("width", "35px").html("<img src='images/twitter.png' alt=''></img>");
+    $(".share.facebook").css("width", "35px").html("<img src='images/facebook.png' alt=''></img>");
+    $(".share.googleplus").css("width", "35px").html("<img src='images/google-plus.png' alt=''></img>");
+  } else {
+    $(".share.twitter").css("width", "185px").html("<img src='images/twitter.png' alt=''></img> <span class='text'>&nbsp; Share <span class='light'>on</span> Twitter</span>"); 
+    $(".share.facebook").css("width", "185px").html("<img src='images/facebook.png' alt=''></img> <span class='text'>&nbsp; Share <span class='light'>on</span> Facebook</span>");
+    $(".share.googleplus").css("width", "185px").html("<img src='images/google-plus.png' alt=''></img> <span class='text'>&nbsp; Share <span class='light'>on</span> Google+</span>"); 
+  };
+});
+
 $(function() {
     var prev; //keep track of previous selected link
     var isVisible= function(el){
@@ -62,8 +74,7 @@ $('.actions').on('click', function(e) {
     if (e.target !== this) {
         return;
     }
-    // playVideo();
-    window.open('https://www.youtube.com/watch?v=qKk8MHFLNNE&feature=youtu.be');
+    playVideo();
 });
 
 function playVideo() {
@@ -226,13 +237,13 @@ var organizations = [
     // Demand Progress
     "disclaimer": "<a href='http://demandprogress.org/' target='_blank'>Demand Progress</a> will contact you about future campaigns. <a href='http://www.demandprogress.org/privacy/' target='_blank'>Privacy policy</a>",
     "tag": "reset-the-net-demand-progress",
-    "weight": 0
+    "weight": 18
 },
 {
     // Fight for the Future
     "disclaimer": "<a href='http://www.fightforthefuture.org/'>Fight for the Future</a> and <a href='http://www.thecenterforrights.org/'>Center for Rights</a> will contact you about future campaigns. <a href='http://www.fightforthefuture.org/privacy/'>Privacy Policy</a>",
     "tag": "reset-the-net",
-    "weight": 98
+    "weight": 80
 },
 {
     // Free Press

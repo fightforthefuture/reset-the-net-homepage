@@ -177,7 +177,10 @@ footer {
 footer.block a {color:#2583db;text-decoration: none;}
 
 
-#privacy-pack {border-bottom: none;}
+#privacy-pack {
+	border-bottom: none;
+	padding: 20px;
+}
 
 
 /* Ribbon */
@@ -231,12 +234,25 @@ footer.block a {color:#2583db;text-decoration: none;}
 	}
 	.navigation .navinn .press-nav-item {display: none}
 	
+	.sharing-buttons {
+		bottom: 120px;
+		top: auto;
+	}
+
 	.sharing-buttons .share {
 		width:40px;
 	}
 
 	.sharing-buttons .share .text {
 		display: none;
+	}
+
+	.quotes-container {
+	    max-width: 280px;
+	}
+
+	.quotes-container .span4 {
+	    margin: 0 0 18px;
 	}
 
 }
