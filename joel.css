@@ -79,6 +79,10 @@ body {
 	background: #59adeb;
 }
 
+.sharing-buttons .share.tumblr {
+	background: rgb(50,80,110);
+}
+
 .sharing-buttons .share.facebook {
 	background: #3c5a96;
 }
