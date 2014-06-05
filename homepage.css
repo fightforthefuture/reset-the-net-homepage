@@ -699,6 +699,7 @@ padding-bottom: 14px;
                     inset 0px 0px 20px rgba(0,0,0,0.1),
                     0px 1px 1px rgba(0,0,0,0.6);
          background: -webkit-linear-gradient(top,#2C85D9, #2C85D9);
+         background: -moz-linear-gradient(top,#2C85D9, #2C85D9);
       display: inline-block;
     line-height: 1.4;
     }
