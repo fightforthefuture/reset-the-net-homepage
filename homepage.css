@@ -571,7 +571,8 @@ padding-bottom: 14px;
 }
 
 .ribbon-container {
-    text-align:center;
+    text-align: center;
+    overflow: hidden;
 }
     
 #ribbon {
@@ -654,9 +655,6 @@ padding-bottom: 14px;
 @media (max-width: 768px) {
     #ribbon {
         font-size: 20px;
-    }
-    #ribbon:before, #ribbon:after {
-        display: none;
     }
     #what-to-do .boxholder {
         width: 290px;
