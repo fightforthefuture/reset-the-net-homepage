@@ -652,7 +652,7 @@ padding-bottom: 14px;
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #ribbon {
         font-size: 20px;
     }
@@ -767,7 +767,7 @@ body {
 }
 
 .quote {
-    width:280px;
+    max-width: 270px;
     height:280px;
     background: #4c5d6c;
     padding-top:15px;
@@ -865,7 +865,7 @@ footer.block a {color:#2583db;text-decoration: none;}
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .navigation .navinn {
         padding:12px 4px;
     }
@@ -882,6 +882,11 @@ footer.block a {color:#2583db;text-decoration: none;}
 
     .quotes-container {
         max-width: 280px;
+    }
+
+    .quote {
+        max-width: none;
+        width: 280px;
     }
 
     .quotes-container .span4 {
