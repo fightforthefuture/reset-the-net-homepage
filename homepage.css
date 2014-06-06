@@ -3,7 +3,13 @@
 @import url('fonts/opensans/open-sans.css');
 
 
+.template-big-video-header .actions {
+    cursor: pointer;
+}
 
+.template-big-video-header .container {
+    cursor: default;
+}
 .block.has-image .text {
     float: left;
     width: 80%;

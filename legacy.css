@@ -4223,7 +4223,7 @@ a.thumbnail:hover {
 
     to {
         background-position: 0 0;
-    };
+    }
 }
 
 @-moz-keyframes progress-bar-stripes {
@@ -4233,7 +4233,7 @@ a.thumbnail:hover {
 
     to {
         background-position: 0 0;
-    };
+    }
 }
 
 @-ms-keyframes progress-bar-stripes {
@@ -4243,7 +4243,7 @@ a.thumbnail:hover {
 
     to {
         background-position: 0 0;
-    };
+    }
 }
 
 @-o-keyframes progress-bar-stripes {
@@ -4253,7 +4253,7 @@ a.thumbnail:hover {
 
     to {
         background-position: 40px 0;
-    };
+    }
 }
 
 @keyframes progress-bar-stripes {
@@ -4263,7 +4263,7 @@ a.thumbnail:hover {
 
     to {
         background-position: 0 0;
-    };
+    }
 }
 
 .progress {
@@ -5354,7 +5354,7 @@ button.close {
 
     .hidden-tablet {
         display: none!important;
-    };
+    }
 }
 
 @media(max-width:767px) {
@@ -5372,7 +5372,7 @@ button.close {
 
     .hidden-phone {
         display: none!important;
-    };
+    }
 }
 
 @media(max-width:767px) {
@@ -5470,7 +5470,7 @@ button.close {
 
     .modal.fade.in {
         top: 20px;
-    };
+    }
 }
 
 @media(max-width:480px) {
@@ -5531,7 +5531,7 @@ button.close {
 
     .carousel-caption {
         position: static;
-    };
+    }
 }
 
 @media(min-width:768px) and (max-width:979px) {
@@ -5923,7 +5923,7 @@ button.close {
 
     input.span1,textarea.span1,.uneditable-input.span1 {
         width: 28px;
-    };
+    }
 }
 
 @media(min-width:1200px) {
@@ -6327,7 +6327,7 @@ button.close {
 
     .row-fluid .thumbnails {
         margin-left: 0;
-    };
+    }
 }
 
 @media(max-width:979px) {
@@ -6494,14 +6494,14 @@ button.close {
     .navbar-static .navbar-inner {
         padding-left: 10px;
         padding-right: 10px;
-    };
+    }
 }
 
 @media(min-width:980px) {
     .nav-collapse.collapse {
         height: auto!important;
         overflow: visible!important;
-    };
+    }
 }
 
 footer,header,menu,nav,section {
@@ -6539,25 +6539,9 @@ body {
 
     to {
         opacity: 1;
-    };
+    }
 }
 
-.gone {
-    display: none;
-    position: absolute;
-    visibility: hidden;
-}
-
-.hidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
 
 input.placeholder {
     color: #ccc;
@@ -6593,7 +6577,7 @@ body {
 @media screen and (max-width:590px) {
     body {
         overflow-x: hidden;
-    };
+    }
 }
 
 .navbar .container {
@@ -6671,7 +6655,7 @@ body {
 
     .navbar-inner {
         border-width: 0 0 1px!important;
-    };
+    }
 }
 
 @media(max-width:767px) {
@@ -6688,7 +6672,7 @@ body {
     .share .has-text a strong {
         font-size: 12px;
         font-weight: normal;
-    };
+    }
 }
 
 @media(max-width:479px) {
@@ -6748,7 +6732,7 @@ body {
     .block.has-image .text {
         float: right;
         width: 60%;
-    };
+    }
 }
 
 .block {
@@ -6826,51 +6810,6 @@ footer.block a {
     color: #555;
 }
 
-.legislators {
-}
-
-.legislators ul,.legislators li {
-    margin: 0;
-    padding: 0;
-    list-style: none inside none;
-}
-
-.legislators li {
-    padding: 5px 20px 5px 86px;
-    position: relative;
-    min-height: 83px;
-    margin: 15px 5% 15px 0;
-    float: left;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 45%;
-}
-
-.legislators li:nth-child(odd) {
-    clear: left;
-}
-
-.legislators img {
-    width: 66px;
-    height: 83px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.legislators h2 {
-    margin: 0 0 8px 0!important;
-}
-
-@media all and (max-width:639px) {
-    .legislators li {
-        float: none;
-        width: 100%;
-        padding-top: 10px;
-    };
-}
-
 .modal {
     padding: 0!important;
 }
@@ -6899,7 +6838,6 @@ footer.block a {
 
 .actions {
     border-top: 0;
-    background: #333 url(https://s3.amazonaws.com/fftf-cms/static/campaign/img/low_contrast_linen.png);
     padding: 40px 0;
     position: relative;
 }
@@ -6933,7 +6871,6 @@ footer.block a {
 }
 
 .actions .container {
-    border-top: 8px solid #e68614;
     border-bottom: 15px solid #d9d9d9;
     background: #fff;
     background: -moz-linear-gradient(top,#fff 0,#eaeaea 100%);
@@ -6952,7 +6889,7 @@ footer.block a {
 @media(max-width:979px) {
     .actions .container {
         width: 70%;
-    };
+    }
 }
 
 @media(max-width:767px) {
@@ -6963,7 +6900,7 @@ footer.block a {
 
     section.actions .container {
         width: 80%;
-    };
+    }
 }
 
 @media(max-width:480px) {
@@ -6985,7 +6922,7 @@ footer.block a {
 
     .don {
         display: inline;
-    };
+    }
 }
 
 .action {
@@ -7032,159 +6969,6 @@ footer.block a {
     margin: 22px auto;
 }
 
-.action#congress-call {
-}
-
-.action#congress-call h2 {
-    margin: 22px 0 11px;
-}
-
-.action#congress-call i {
-    position: relative;
-    top: 2px;
-    left: -1px;
-}
-
-.action#congress-call blockquote {
-    border-left-color: rgba(0,0,0,0.1);
-}
-
-.action#congress-call blockquote p {
-    font-size: 15px;
-    line-height: 1.47;
-}
-
-.action#congress-call form {
-    max-width: 300px;
-    margin: 0 auto;
-}
-
-.action#congress-call #field_zip {
-}
-
-.action#congress-call #field_zip input {
-    width: 48%;
-    float: left;
-}
-
-.action#congress-call h2 {
-    margin: 22px 0 11px;
-}
-
-.action#congress-call i {
-    position: relative;
-    top: 2px;
-    left: -1px;
-}
-
-.action#congress-call blockquote {
-    border-left-color: rgba(0,0,0,0.1);
-}
-
-.action#congress-call blockquote p {
-    font-size: 15px;
-    line-height: 1.47;
-}
-
-.action#congress-call form {
-    max-width: 300px;
-    margin: 0 auto;
-    margin-top: 15px;
-}
-
-.action#congress-call #field_zip {
-}
-
-.action#congress-call #field_zip input {
-    width: 48%;
-    float: left;
-}
-
-.action#congress-call #field_zip button {
-    width: 48%;
-    float: right;
-}
-
-.action#congress-call #field_detect {
-    margin-top: 8px;
-}
-
-.action#congress-call #field_detect button {
-    width: 100%;
-}
-
-.action#congress-call #field_zip button {
-    width: 48%;
-    float: right;
-}
-
-.action#congress-call #field_detect {
-    margin-top: 8px;
-}
-
-.action#congress-call #field_detect button {
-    width: 100%;
-}
-
-.action#congress-call .disclaimer {
-    margin-top: 60px;
-}
-
-.action#congress-call #tf-call-widget-container input#tf-submit {
-    margin-left: 1%;
-}
-
-.action#congress-call div#tf-call-widget-container form#tf-call-tool {
-    max-width: 600px;
-    margin-top: 0;
-}
-
-.action#congress-call div#tf-call-widget-container label#tf-phone-number-label {
-    display: block;
-}
-
-.action#congress-call div#tf-call-widget-container input#tf-phone-number {
-    float: left;
-    width: 69%;
-    height: 53px;
-}
-
-.action#congress-call div#tf-call-widget-container input#tf-submit {
-    float: right;
-    width: 30%;
-    margin-left: 1%;
-}
-
-.action#congress-call p {
-    font-weight: 450;
-}
-
-.action#congress-call form.group.geo_active {
-    display: none;
-}
-
-.action#congress-call #tf-call-widget-container {
-    background: transparent;
-    border: none;
-    box-shadow: none;
-}
-
-.action#congress-call #tf-call-widget-container h5 {
-    margin: 12px auto;
-    max-width: 300px;
-    text-align: center;
-}
-
-.action#congress-call #tf-call-widget-container input#tf-phone-number {
-    float: left;
-    width: 60%;
-}
-
-.action#congress-call #tf-call-widget-container input#tf-submit {
-    margin-left: 5%;
-    width: 30%;
-}
-
 .action#salsa-email form {
     max-width: 700px;
     padding-left: 5%;
@@ -7218,25 +7002,6 @@ footer.block a {
 .action#salsa-email .buttons {
     float: right;
     width: 25%;
-}
-
-.salsa-email-with-name#salsa-email #field_firstname,.salsa-email-with-name#salsa-email #field_lastname,.salsa-email-with-name#salsa-email #field_email {
-    margin-right: 1%;
-    width: 32%;
-}
-
-.salsa-email-with-name#salsa-email input {
-    border-radius: 4px;
-}
-
-.salsa-email-with-name#salsa-email .buttons {
-    float: none;
-    width: 98%;
-}
-
-.salsa-email-with-name#salsa-email .buttons .btn {
-    border-radius: 4px;
-    width: 100%;
 }
 
 @media(max-width:639px) {
@@ -7287,161 +7052,19 @@ footer.block a {
 
     .action#salsa-email .buttons {
         float: right;
-    };
+    }
 }
 
 @media(max-width:523px) {
     .action#salsa-email .btn {
         width: 100%;
-    };
+    }
 }
 
 @media(max-width:550px) {
     .action#salsa-email .btn {
         width: 100%;
-    };
-}
-
-.action#salsa-congress .field {
-    margin-right: 1%;
-    float: left;
-}
-
-.action#salsa-congress #field_name {
-    width: 30%;
-    margin-bottom: 12px;
-}
-
-.action#salsa-congress #field_email {
-    width: 30%;
-    margin-bottom: 12px;
-}
-
-.action#salsa-congress #field_address {
-    width: 25%;
-}
-
-.action#salsa-congress #field_zip {
-    width: 11%;
-}
-
-.action#salsa-congress .buttons {
-    float: left;
-    width: 50%;
-    margin-top: 5px;
-    margin-left: 25%;
-    font-size: 20px;
-}
-
-.action#salsa-congress .buttons button {
-    width: 100%;
-}
-
-.action#salsa-congress .letter {
-    background-color: #FFF;
-    background-image: url(https://s3.amazonaws.com/fftf-cms/static/campaign/img/noteleft.jpg),url(https://s3.amazonaws.com/fftf-cms/static/campaign/img/noteright.jpg);
-    background-repeat: repeat-y,repeat-x;
-    background-position: top left,top left;
-    margin-top: 0;
-    margin-bottom: 30px;
-    padding: 13px 15px;
-    -moz-box-shadow: 0 3px 5px #9d9d9d;
-    -webkit-box-shadow: 0 3px 5px #9d9d9d;
-    box-shadow: 0 3px 5px #9d9d9d;
-    border: 1px solid #c0c0c0;
-    -webkit-border-top-left-radius: 6px;
-    -webkit-border-top-right-radius: 6px;
-    -moz-border-radius-topleft: 6px;
-    -moz-border-radius-topright: 6px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-}
-
-.action#salsa-congress .letter textarea {
-    font-family: 'Open Sans','Helvetica Neue','Helvetica','Arial',sans-serif;
-    font-size: 13px;
-    margin-left: 15px;
-    line-height: 21px;
-    text-align: left;
-    background: none;
-    height: 80px;
-    border: none;
-    margin-top: 0;
-    padding: 0;
-    box-shadow: none;
-    resize: none;
-}
-
-@media(max-width:767px) {
-    .action#salsa-congress form {
-        max-width: auto;
     }
-
-    .action#salsa-congress .field {
-        width: 100%!important;
-        float: none!important;
-        margin: 0 0 12px;
-    }
-
-    .action#salsa-congress .field input {
-        max-width: 767px;
-    }
-
-    .action#salsa-congress .buttons {
-        float: none;
-    };
-}
-
-.intro {
-    padding: 0;
-    border-top: 0;
-    border-bottom: 5px solid red;
-}
-
-.intro h1 {
-    font-size: 43px;
-    line-height: 1.12;
-    font-weight: 700;
-    color: #404040;
-    text-align: center;
-    letter-spacing: -1px;
-    padding: 0 20px;
-}
-
-.intro h1.small {
-    font-size: 32px;
-    line-height: 1.15;
-}
-
-.intro h2 {
-    font-size: 27px;
-    line-height: 1.19;
-    font-weight: 300;
-    letter-spacing: -0.5px;
-    text-align: center;
-    color: #555;
-}
-
-.intro h2.small {
-    font-size: 20px;
-    line-height: 1.15;
-}
-
-.intro .block {
-    border-top: 0;
-    padding: 20px 0 45px;
-}
-
-.intro .block h1 {
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 1.12;
-    text-align: left;
-    padding: 0;
-}
-
-#salsa.intro .block h1 {
-    text-align: center;
 }
 
 p.disclaimer {
@@ -7513,7 +7136,7 @@ textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type=
 
     .intro h2 {
         font-size: 23px;
-    };
+    }
 }
 
 @media(max-width:639px) {
@@ -7589,13 +7212,13 @@ textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type=
         max-width: 350px;
         height: 50px;
         font-size: 14px;
-    };
+    }
 }
 
 @media(max-width:550px) {
     .block h1 {
         padding-top: 5px;
-    };
+    }
 }
 
 @media(-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi) {
@@ -7607,7 +7230,7 @@ textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type=
     .actions {
         background-size: 28px 28px;
         background-image: url(https://s3.amazonaws.com/fftf-cms/static/campaign/img/hash@2x.png);
-    };
+    }
 }
 
 figure.image {
@@ -7724,64 +7347,6 @@ a.btn {
     content: '';
 }
 
-.social-facebook {
-    background-color: #314880!important;
-}
-
-.social-facebook::before {
-    background-position: -150px 0;
-}
-
-.social-tumblr {
-    background-color: #324760!important;
-}
-
-.social-tumblr::before {
-    background-position: 0 0;
-    left: 7px;
-}
-
-.social-email {
-    background-color: #555!important;
-}
-
-.social-email::before {
-    background-position: -25px 0;
-}
-
-.social-rss {
-    background-color: #dd8f13!important;
-}
-
-.social-rss::before {
-    background-position: -50px 0;
-}
-
-.social-google-plus {
-    background-color: #bc4d38!important;
-}
-
-.social-google-plus::before {
-    background-position: -75px 0;
-}
-
-.social-twitter {
-    background-color: #3f9ce1!important;
-}
-
-.social-twitter::before {
-    background-position: -100px 0;
-}
-
-.social-reddit {
-    background-color: #305388!important;
-}
-
-.social-reddit::before {
-    background-position: -125px 0;
-    left: 7px;
-}
-
 .social-donate,.navbar .nav>li>.social-donate {
     width: auto;
     text-indent: 0;
@@ -7866,7 +7431,7 @@ a.btn {
         -webkit-box-shadow: 0 0 0 rgba(000,000,000,0),inset 0 1px 1px rgba(166,233,255,1);
         box-shadow: 0 0 0 rgba(000,000,000,0),inset 0 1px 1px rgba(166,233,255,1);
         text-shadow: 0 -1px 0 rgba(0,0,0,0),0px -1px 0 rgba(5,5,5,0.4);
-    };
+    }
 }
 
 .verdevider {
@@ -7938,7 +7503,7 @@ textarea,input[type="text"],input[type="password"],input[type="datetime"],input[
 @media(max-width:1150px) {
     textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {
         font-size: 13px;
-    };
+    }
 }
 
 #salsa-email input:focus {
@@ -7977,19 +7542,19 @@ textarea,input[type="text"],input[type="password"],input[type="datetime"],input[
 
     .action#salsa-congress #field_zip {
         width: 21%;
-    };
+    }
 }
 
 @media(max-width:1300px) {
     textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {
         font-size: 15px;
-    };
+    }
 }
 
 @media(max-width:1150px) {
     textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {
         font-size: 13px;
-    };
+    }
 }
 
 #salsa-email input:focus {
@@ -8001,53 +7566,6 @@ textarea,input[type="text"],input[type="password"],input[type="datetime"],input[
 
 #salsa-email input {
     color: #000;
-}
-
-.legislators {
-}
-
-.legislators ul,.legislators li {
-    margin: 0;
-    padding: 0;
-    list-style: none inside none;
-    padding-left: 7%;
-}
-
-.legislators li {
-    padding: 5px 20px 5px 86px;
-    position: relative;
-    min-height: 83px;
-    margin: 15px 5% 15px 0;
-    float: left;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 45%;
-}
-
-.legislators li:nth-child(odd) {
-    clear: left;
-}
-
-@media screen and (max-width:590px) {
-    .legislators li {
-        float: none;
-    };
-}
-
-.legislators img {
-    width: 66px;
-    height: 83px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border: 5px solid #fff;
-    -moz-box-shadow: 1px 3px 6px #a8a8a8;
-    -webkit-box-shadow: 1px 3px 6px #a8a8a8;
-    box-shadow: 1px 3px 6px #a8a8a8;
 }
 
 section#top_links {
@@ -8079,120 +7597,4 @@ section#top_links h2 a {
 
 #salsa #salsa-email h3 {
     text-align: center;
-}
-
-#basic-modal-content {
-    display: none;
-}
-
-#simplemodal-overlay {
-    background-color: #000;
-}
-
-#simplemodal-container {
-    height: 360px;
-    width: 600px;
-    color: #bbb;
-    background-color: #333;
-    border: 4px solid #444;
-    padding: 12px;
-}
-
-#simplemodal-container .simplemodal-data {
-    padding: 8px;
-}
-
-#simplemodal-container code {
-    background: #141414;
-    border-left: 3px solid #65B43D;
-    color: #bbb;
-    display: block;
-    font-size: 12px;
-    margin-bottom: 12px;
-    padding: 4px 6px 6px;
-}
-
-#simplemodal-container a {
-    color: #ddd;
-}
-
-#simplemodal-container a.modalCloseImg {
-    width: 25px;
-    height: 29px;
-    display: inline;
-    z-index: 3200;
-    position: absolute;
-    top: 0;
-    right: 3px;
-    cursor: pointer;
-}
-
-#simplemodal-container h3 {
-    color: #84b8d9;
-}
-
-.progress-bar {
-    color: #e32455;
-    margin: 0 auto;
-    padding-top: 40px;
-    text-align: right;
-    width: 90%;
-}
-
-.progress-bar-outer {
-    background-color: #ccc;
-    border-radius: 5px;
-    box-shadow: 0 1px 7px rgba(0,0,0,0.3) inset;
-    height: 22px;
-}
-
-.progress-bar-inner {
-    background-image: url(https://s3.amazonaws.com/fftf-cms/static/campaign/img/stripes.png);
-    border-radius: 5px;
-    box-shadow: 0 1px 1px rgba(255,255,255,0.5) inset;
-    display: block;
-    height: 22px;
-    width: 0;
-    -webkit-transition: width 2s;
-    -moz-transition: width 2s;
-    -ms-transition: width 2s;
-    -o-transition: width 2s;
-    transition: width 2s;
-}
-
-.progress-bar-signatures {
-    font-family: sans-serif;
-    opacity: 0;
-    padding-bottom: 6px;
-    text-align: center;
-}
-
-#progress-bar-count {
-    font-size: 44px;
-    font-weight: bold;
-    -webkit-transition: opacity .15s;
-    -moz-transition: opacity .15s;
-    -ms-transition: opacity .15s;
-    -o-transition: opacity .15s;
-    transition: opacity .15s;
-}
-
-.progress-bar-goal {
-    font-family: sans-serif;
-    font-style: italic;
-    opacity: 0;
-    padding-top: 12px;
-    -webkit-transition: opacity .15s;
-    -moz-transition: opacity .15s;
-    -ms-transition: opacity .15s;
-    -o-transition: opacity .15s;
-    transition: opacity .15s;
-}
-
-.template-big-video-header .actions {
-    cursor: pointer;
-}
-
-.template-big-video-header .container {
-    cursor: default;
 }
