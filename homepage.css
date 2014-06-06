@@ -772,6 +772,7 @@ body {
     max-width: 270px;
     height:280px;
     background: #4c5d6c;
+    background-size: cover;
     padding-top:15px;
     font-weight: normal;
     border-radius: 4px;
