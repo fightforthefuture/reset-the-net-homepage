@@ -83,7 +83,7 @@ function setupParticipants() {
             participants = res;
 
             // Show N participants, initially.
-            showNextGroupOfParticipants(20);
+            showNextGroupOfParticipants(36);
 
             // Catch partial hashes.
             if (location.hash.match(/^#add-yourself/)) {
