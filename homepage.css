@@ -887,6 +887,21 @@ footer.block a {color:#2583db;text-decoration: none;}
    text-shadow: 0 0 5px #444;
  }
 
+@media only screen and (max-width: 1400px) {
+    .sharing-buttons {
+        bottom: 120px;
+        top: auto;
+    }
+
+    .sharing-buttons .share {
+        width:40px;
+    }
+
+    .sharing-buttons .share .text {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .navigation .navinn {
         padding:12px 4px;
@@ -901,19 +916,6 @@ footer.block a {color:#2583db;text-decoration: none;}
         font-family:'Montserrat';
     }
     .navigation .navinn .press-nav-item {display: none}
-    
-    .sharing-buttons {
-        bottom: 120px;
-        top: auto;
-    }
-
-    .sharing-buttons .share {
-        width:40px;
-    }
-
-    .sharing-buttons .share .text {
-        display: none;
-    }
 
     .quotes-container {
         max-width: 280px;
