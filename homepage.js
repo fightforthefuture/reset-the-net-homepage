@@ -197,6 +197,7 @@ $.ajax({
         showNextGroupOfParticipants();
         showNextGroupOfParticipants();
         showNextGroupOfParticipants();
+		showNextGroupOfParticipants();
 
         // Catch partial hashes.
         if (location.hash.match(/^#add-yourself/)) {
