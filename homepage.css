@@ -683,6 +683,7 @@ body {
 .navigation {
     height:51px;
     background: #1a578f;
+    background: rgba(26, 87, 143, 0.97);
     position:fixed;
     z-index:999;
     width:100%;
