@@ -768,4 +768,7 @@ padding-bottom: 14px;
     #ribbon:before, #ribbon:after {
         display: none;
     }
+    #what-to-do .boxholder {
+        width: 290px;
+    }
 }
