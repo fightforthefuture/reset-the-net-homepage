@@ -246,7 +246,7 @@ section.actions {
     color: #606668;
 }
 #view-more-participants {
-    display: block;
+    display: none;
     margin: 12px auto;
     width: 120px;
 }

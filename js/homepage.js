@@ -17,9 +17,6 @@ function setupParticipants() {
     var participants = [];
     var currentParticipantIndex = 0;
 
-    // Show the Grids.
-    $('#participants').show();
-
     // This is our HTML template method.
     function createParticipantElement(user) {
         var html = '<div id="user-' + user._id + '" class="slide">' +
@@ -77,8 +74,10 @@ function setupParticipants() {
     $.ajax({
         url: '//reset-the-net-form-backend.herokuapp.com/users',
         success: function (res) {
-            // Show the View More button.
-            $('#view-more-participants').show();
+            // Show the "Show More" button.
+            $('#view-more-participants').css({
+                display: 'block'
+            });
 
             // Save the participants.
             participants = res;
