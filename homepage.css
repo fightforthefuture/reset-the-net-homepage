@@ -730,7 +730,9 @@ body {
     font-weight: bold;
     margin-bottom:10px;
     font-size: 13px;
-    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 .sharing-buttons .share:hover {
@@ -777,7 +779,9 @@ body {
     font-weight: normal;
     border-radius: 4px;
     position: relative;
-    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
     .snowden {
@@ -838,9 +842,11 @@ footer {
     font-style: 24px;
     padding:48px 0 36px 0;
     font-weight: bold;
-    box-sizing:border-box;
     position: relative;
     bottom:-20px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 footer.block a {color:#2583db;text-decoration: none;}
@@ -1010,7 +1016,7 @@ body {
         margin: 0px auto;
         width: 100%;
         -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
     };
 }
