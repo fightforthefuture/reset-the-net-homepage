@@ -1002,3 +1002,49 @@ footer.block a {color:#2583db;text-decoration: none;}
 .hidden-banners {
   /*display:none;*/
 }
+
+
+
+/*
+ * Imported from internal CSS
+ */
+body {
+    padding-top: 0;
+}
+
+.actions {
+    background: none;
+    background-image: url(/images/background.jpg);
+    background-position: center top;
+    background-repeat: repeat-x;
+    margin-bottom: 90px;
+    padding-top: 500px;
+}
+
+.actions .container {
+    margin-bottom: -140px;
+}
+
+.actions:after,.actions:before {
+    width: 0;
+}
+
+.navbar-fixed-bottom {
+    margin: 0;
+}
+
+@media screen and (max-width: 460px) {
+    .actions {
+        background-size: 909px auto;
+        padding-top: 250px;
+    }
+
+    #big-video {
+        padding-right: 40px;
+        margin: 0px auto;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    };
+}
