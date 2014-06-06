@@ -765,4 +765,7 @@ padding-bottom: 14px;
     #ribbon {
         font-size: 20px;
     }
+    #ribbon:before, #ribbon:after {
+        display: none;
+    }
 }
