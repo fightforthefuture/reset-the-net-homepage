@@ -169,6 +169,7 @@ section.actions {
 /* PARTICIPANTS */
 #participants .container {
     max-width: 1110px;
+    text-align: center;
 }
 @media only screen and (max-width: 1109px) {
     #participants .container {
