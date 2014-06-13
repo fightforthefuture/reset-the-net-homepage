@@ -172,7 +172,6 @@ function playVideo() {
         if ($el.data('instantiated')) {
             return;
         }
-        $el.attr('height', $el.attr('x-height'));
         $el.attr('src', $el.attr('x-src'));
         $el.show();
 
