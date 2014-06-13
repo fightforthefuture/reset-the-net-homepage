@@ -159,6 +159,9 @@ function addVideoLogic() {
         }
         playVideo();
     });
+
+    // Let's clear the `src` attribute, just in case it's been cached.
+    $('#big-video').removeAttr('src');
 }
 
 
