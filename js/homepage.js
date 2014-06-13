@@ -161,6 +161,7 @@ function addVideoLogic() {
     });
 
     // Let's clear the `src` attribute, just in case it's been cached.
+    // Support: Firefox
     $('#big-video').removeAttr('src');
 }
 
