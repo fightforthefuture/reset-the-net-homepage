@@ -7,7 +7,6 @@ $(onReady);
 function onReady() {
     addNavigationLogic();
     addVideoLogic();
-    rotateOrganizations();
     setupParticipants();
 }
 
@@ -99,55 +98,6 @@ function setupParticipants() {
     $('#view-more-participants').on('click', function () {
         showNextGroupOfParticipants(8);
     });
-}
-
-
-function rotateOrganizations() {
-    var organizations = [{
-        // American Civil Liberties Union
-        "disclaimer": "<a href='http://aclu.org' target='_blank'>ACLU</a> will contact you about future campaigns. <a href='https://www.aclu.org/american-civil-liberties-union-privacy-statement' target='_blank'>Privacy policy</a>",
-        "tag": "reset-the-net-aclu",
-        "weight": 0
-    }, {
-        // OpenMedia
-        "disclaimer": "<a href='http://openmedia.org' target='_blank'>OpenMedia</a> will contact you about future campaigns. <a href='https://openmedia.ca/privacy' target='_blank'>Privacy policy</a>",
-        "tag": "reset-the-net-openmedia",
-        "weight": 0
-    }, {
-        // Demand Progress
-        "disclaimer": "<a href='http://demandprogress.org/' target='_blank'>Demand Progress</a> will contact you about future campaigns. <a href='http://www.demandprogress.org/privacy/' target='_blank'>Privacy policy</a>",
-        "tag": "reset-the-net-demand-progress",
-        "weight": 65
-    }, {
-        // Fight for the Future
-        "disclaimer": "<a href='http://www.fightforthefuture.org/'>Fight for the Future</a> and <a href='http://www.thecenterforrights.org/'>Center for Rights</a> will contact you about future campaigns. <a href='http://www.fightforthefuture.org/privacy/'>Privacy Policy</a>",
-        "tag": "reset-the-net",
-        "weight": 0
-    }, {
-        // Free Press
-        "disclaimer": "<a href='http://www.freepress.net/' target='_blank'>Free Press</a> will contact you about future campaigns. <a href='https://www.freepress.net/privacy-copyright' target='_blank'>Privacy policy</a>",
-        "tag": "reset-the-net-freepress",
-        "weight": 0
-    }, {
-        // CREDO
-        "disclaimer": '<a href="credoaction.com/">CREDO</a> will contact you about future campaigns. <a href="http://www.credomobile.com/Misc/Privacy.aspx">Privacy Policy</a>',
-        "tag": "reset-the-net-credo",
-        "weight": 35
-    }];
-
-    function getScore(weight) {
-        return weight * Math.random();
-    }
-
-    function getOrganization() {
-        return organizations.sort(function (a, b) {
-            return getScore(b.weight) - getScore(a.weight);
-        })[0];
-    }
-
-    var organization = getOrganization();
-    $('input[name=tag]').val(organization.tag);
-    $('.disclaimer p').html(organization.disclaimer);
 }
 
 
