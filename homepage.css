@@ -8033,21 +8033,20 @@ border-top: 5px solid #2c85d9;
 }
 
 #what-to-do a.button{
--moz-border-radius: 3px;
--webkit-border-radius: 3px;
-border-radius: 3px; /* border radius */
--moz-background-clip: padding;
--webkit-background-clip: padding-box;
-background-clip: padding-box; /* prevents bg color from leaking outside the border */
-background-color: #2b85d9; /* layer fill content + color overlay */
-width: 260px;
-float: left;
-text-align: center;
-color: #fff;
-text-decoration: none;
-margin-left: 20px;
-padding-top: 14px;
-padding-bottom: 14px;
+    -moz-background-clip: padding;
+    -moz-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 3px;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #2b85d9; /* layer fill content + color overlay */
+    border-radius: 3px; /* border radius */
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    text-align: center;
+    text-decoration: none;
+    width: calc(100% - 30px);
 }
 
 #what-to-do a.button:hover{
