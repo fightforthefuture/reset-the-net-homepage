@@ -8318,7 +8318,7 @@ body {
 /* Social Buttons */
 .sharing-buttons {
     position: fixed;
-    top: calc((100% - 200px) / 2);
+    top: calc((100% - 190px) / 2);
     left:0;
     z-index:99;
 }
@@ -8508,6 +8508,12 @@ footer.block a {color:#2583db;text-decoration: none;}
 @media only screen and (max-width: 520px) {
     .sharing-buttons {
         display: none;
+    }
+}
+
+@media only screen and (max-height: 320px) {
+    .navigation {
+        position: absolute;
     }
 }
 
