@@ -8511,6 +8511,12 @@ footer.block a {color:#2583db;text-decoration: none;}
 
 }
 
+@media only screen and (max-width: 520px) {
+    .sharing-buttons {
+        display: none;
+    }
+}
+
 
 
 /*
