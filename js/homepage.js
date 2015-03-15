@@ -86,10 +86,16 @@ function setupParticipants() {
 
             // Catch partial hashes.
             if (location.hash.match(/^#add-yourself/)) {
-                $('#add-yourself').velocity('scroll', 750);
+                $('#add-yourself').velocity('scroll', {
+                    duration: 750,
+                    offset: -60
+                });
             }
             if (location.hash.match(/^#splash-screen/)) {
-                $('#splash-screen').velocity('scroll', 750);
+                $('#splash-screen').velocity('scroll', {
+                    duration: 750,
+                    offset: -60
+                });
             }
         }
     });
@@ -204,10 +210,16 @@ function addNavigationLogic() {
     $('.nav-item').click(function (e) {
         e.preventDefault();
         var target = $(this).attr('href');
-        $(target).velocity('scroll', 750);
+        $(target).velocity('scroll', {
+            duration: 750,
+            offset: -60
+        });
     })
 
     if (["#splash-screen", "#privacy-pack"].indexOf(window.location.hash) > -1) {
-        $("#splash-screen").velocity('scroll', 750);
+        $("#splash-screen").velocity('scroll', {
+            duration: 750,
+            offset: -60
+        });
     };
 }
